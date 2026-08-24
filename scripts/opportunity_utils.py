@@ -179,6 +179,28 @@ def slugify(value: str) -> str:
     return slug or hashlib.sha1(value.encode()).hexdigest()[:12]
 
 
+def unique_opportunity_id(item: dict[str, Any], used_ids: set[str]) -> str:
+    """Return a stable, URL-safe ID that does not collide with existing pages."""
+    preferred = clean_text(item.get("id")) or f"{slugify(clean_text(item.get('title')))}-{str(item.get('startDate', ''))[:4]}"
+    if preferred not in used_ids:
+        return preferred
+
+    start = str(item.get("startDate", "")).replace("-", "")
+    dated = f"{preferred}-{start[4:]}" if len(start) == 8 else preferred
+    if dated not in used_ids:
+        return dated
+
+    fingerprint = hashlib.sha1(
+        f"{dedupe_key(item)}:{item.get('sourceUrl', '')}:{item.get('registrationUrl', '')}".encode()
+    ).hexdigest()[:8]
+    candidate = f"{dated}-{fingerprint}"
+    counter = 2
+    while candidate in used_ids:
+        candidate = f"{dated}-{fingerprint}-{counter}"
+        counter += 1
+    return candidate
+
+
 def classify_type(text: str) -> str:
     lowered = f" {text.lower()} "
     for needle, label in TYPE_RULES:

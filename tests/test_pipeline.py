@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from opportunity_utils import dedupe_key, extract_jsonld, qualifies, schema_to_opportunity
+from opportunity_utils import dedupe_key, extract_jsonld, qualifies, schema_to_opportunity, unique_opportunity_id
 
 
 class PipelineTests(unittest.TestCase):
@@ -32,6 +32,18 @@ class PipelineTests(unittest.TestCase):
         left = {"title":"Example Hackathon 2026","startDate":"2026-10-01"}
         right = {"title":"Example Hackathon","startDate":"2026-10-01"}
         self.assertEqual(dedupe_key(left), dedupe_key(right))
+
+    def test_recurring_events_receive_unique_page_ids(self):
+        used = {"student-workshop-2026"}
+        item = {
+            "id": "student-workshop-2026",
+            "title": "Student Workshop",
+            "startDate": "2026-10-24",
+            "sourceUrl": "https://example.org/workshop",
+        }
+        generated = unique_opportunity_id(item, used)
+        self.assertEqual(generated, "student-workshop-2026-1024")
+        self.assertNotIn(generated, used)
 
     def test_seed_data_has_required_fields_and_unique_ids(self):
         data = json.loads((ROOT / "data" / "opportunities.json").read_text())

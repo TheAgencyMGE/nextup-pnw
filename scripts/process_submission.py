@@ -8,7 +8,7 @@ import re
 from datetime import date
 from pathlib import Path
 
-from opportunity_utils import DATA_FILE, city_from, classify_field, classify_type, clean_text, dedupe_key, extract_jsonld, fetch, load_json, qualifies, save_json, schema_to_opportunity, slugify
+from opportunity_utils import DATA_FILE, city_from, classify_field, classify_type, clean_text, dedupe_key, extract_jsonld, fetch, load_json, qualifies, save_json, schema_to_opportunity, slugify, unique_opportunity_id
 
 RESULT_FILE = Path(os.getenv("SUBMISSION_RESULT", "submission-result.json"))
 
@@ -88,6 +88,7 @@ def main() -> int:
     keys = {dedupe_key(existing) for existing in current}
     if dedupe_key(item) in keys:
         return finish("duplicate", "This opportunity is already in NextUp PNW.", item["id"])
+    item["id"] = unique_opportunity_id(item, {existing["id"] for existing in current})
     current.append(item)
     current.sort(key=lambda value: (value.get("startDate", "9999"), value.get("title", "")))
     save_json(DATA_FILE, current)

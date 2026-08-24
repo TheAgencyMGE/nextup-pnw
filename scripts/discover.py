@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from datetime import date, datetime, timezone
 
-from opportunity_utils import DATA_FILE, ROOT, STATE_FILE, dedupe_key, event_links, extract_jsonld, fetch, load_json, qualifies, save_json, schema_to_opportunity
+from opportunity_utils import DATA_FILE, ROOT, STATE_FILE, dedupe_key, event_links, extract_jsonld, fetch, load_json, qualifies, save_json, schema_to_opportunity, unique_opportunity_id
 
 
 def main() -> int:
@@ -15,6 +15,7 @@ def main() -> int:
     sources = load_json(ROOT / "config" / "sources.json", [])
     existing = load_json(DATA_FILE, [])
     known = {dedupe_key(item) for item in existing}
+    used_ids = {item["id"] for item in existing}
     discovered, failures = [], []
 
     for source in sources:
@@ -38,7 +39,9 @@ def main() -> int:
                     allowed, _ = qualifies(item)
                     key = dedupe_key(item)
                     if allowed and key not in known:
+                        item["id"] = unique_opportunity_id(item, used_ids)
                         known.add(key)
+                        used_ids.add(item["id"])
                         discovered.append(item)
             except Exception as exc:
                 failures.append({"source": source["id"], "url": url, "error": str(exc)[:240]})

@@ -1,122 +1,58 @@
 {
-  "mode": "discovery",
-  "ranAt": "2026-08-24T03:48:14.098120+00:00",
-  "newCount": 85,
-  "sourceCount": 43,
-  "failureCount": 30,
-  "failures": [
+  "mode": "verification",
+  "ranAt": "2026-08-24T14:30:47.578378+00:00",
+  "checkedCount": 113,
+  "activeCount": 125,
+  "archivedCount": 0,
+  "warningCount": 12,
+  "warnings": [
     {
-      "source": "seattle-childrens-research-training",
-      "error": "robots.txt does not allow collection: https://www.seattlechildrens.org/research/centers-programs/science-education-department/internships-and-programs/"
-    },
-    {
-      "source": "uw-foster-events",
-      "error": "robots.txt does not allow collection: https://foster.uw.edu/news-events/trumba/"
-    },
-    {
-      "source": "uw-buerk-entrepreneurship",
-      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/"
-    },
-    {
-      "source": "score-greater-seattle",
+      "id": "score-tech-pitch-final-2026",
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "port-seattle-internships",
-      "error": "robots.txt does not allow collection: https://www.portseattle.org/careers/internships"
-    },
-    {
-      "source": "king-county-youth-opportunities",
-      "error": "robots.txt does not allow collection: https://kingcounty.gov/en/dept/dnrp/nature-recreation/environment-ecology-conservation/environmental-education"
-    },
-    {
-      "source": "king-county-public-defense",
-      "error": "robots.txt does not allow collection: https://kingcounty.gov/en/dept/dpd/about-public-defense/jobs-internships"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/images/Departments/HumanServices/Youth/SYEP-2026-Youth-Internship-Flyer2.png",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/Select-Your-Internship-Preferences.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/human-services/about-us/leadership",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/event-calendar",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/SYEP-How-to-Submit-an-Application.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/SYEP-Application-Help-Guide.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/Eligibility-VerificationChecklist.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/26-SYEP_LnE-Foundations-Pathways_comparison-FINAL.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/2026-SYEP_LnE-Foundations_flyer_FINAL2.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/documents/Departments/HumanServices/Youth/2026-SYEP-Employer-FAQ.pdf",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/departments",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-youth-employment",
-      "url": "https://www.seattle.gov/human-services/services-and-programs/youth-and-young-adults/civilrights/laws-we-enforce/title-vi-civil-rights-act",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "seattle-art-museum-events",
+      "id": "sam-preparing-the-past-2026",
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "seattle-art-museum-internships",
+      "id": "uw-dawg-daze-2026",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "creative-advantage-institute-2026",
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "source": "wjea-events",
+      "id": "graduate-entrepreneurship-certificate-winter-2027",
+      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/entrepreneurship-certificate/"
+    },
+    {
+      "id": "we-lead-cohort-2026",
+      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/womens-entrepreneurial-leadership-program/"
+    },
+    {
+      "id": "sam-conservation-stories-2026",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "wjea-j-day-west-2026",
       "error": "robots.txt does not allow collection: https://wjea.org/"
     },
     {
-      "source": "future-city-pnw",
+      "id": "future-city-pnw-2026",
       "error": "robots.txt does not allow collection: https://futurecity.org/future-city-regions/pacific-northwest/"
     },
     {
-      "source": "geekwire-calendar",
-      "error": "robots.txt does not allow collection: https://www.geekwire.com/calendar/"
+      "id": "we-lead-mentoring-2027",
+      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/womens-entrepreneurial-leadership-program/"
     },
     {
-      "source": "seattle-u-events",
-      "url": "https://events.seattleu.edu/search/groups",
-      "error": "robots.txt does not allow collection: https://events.seattleu.edu/search/groups"
+      "id": "sam-beneath-the-surface-2026",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "king-county-public-defense-internship-2027",
+      "error": "robots.txt does not allow collection: https://kingcounty.gov/en/dept/dpd/about-public-defense/jobs-internships"
     }
   ]
 }

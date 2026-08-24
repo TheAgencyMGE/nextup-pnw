@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.next/
+.sites-runtime/
+.wrangler/
+.env
+.env.*
+!.env.example
+submission-result.json
+__pycache__/
+*.py[cod]
+.DS_Store

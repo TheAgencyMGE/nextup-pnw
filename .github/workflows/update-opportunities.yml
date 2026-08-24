@@ -1,0 +1,60 @@
+name: Update opportunities
+
+on:
+  schedule:
+    - cron: "17 14 * * *"
+    - cron: "23 15 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Update mode
+        required: true
+        default: full
+        type: choice
+        options: [full, verify]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: opportunity-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify existing listings
+        run: python scripts/verify.py
+      - name: Discover newly announced listings
+        if: github.event.schedule == '23 15 * * 0' || inputs.mode == 'full'
+        run: python scripts/discover.py
+      - name: Test and build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/build_static.py
+      - name: Save data refresh
+        run: |
+          git config user.name "nextup-pnw-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Update verified opportunities"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Deploy refreshed directory
+        id: deployment
+        uses: actions/deploy-pages@v4

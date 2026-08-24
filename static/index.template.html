@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NextUp PNW — Student Opportunities Around Seattle</title>
+  <meta name="description" content="Verified internships, workshops, competitions, research, and leadership programs across medicine, law, business, engineering, arts, public service, and technology in the Puget Sound.">
+  <meta name="theme-color" content="#173f31">
+  <link rel="canonical" href="{{BASE_URL}}/">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta property="og:title" content="NextUp PNW">
+  <meta property="og:description" content="Stop finding out after it happened. Find verified student opportunities across the Puget Sound.">
+  <meta property="og:image" content="{{BASE_URL}}/assets/og.png">
+  <meta property="og:url" content="{{BASE_URL}}/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<main>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="NextUp PNW home"><span class="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></a>
+    <nav aria-label="Main navigation"><a href="#opportunities">Explore</a><a href="#how-it-works">How it works</a><a class="submit-nav" href="{{SUBMIT_URL}}">Submit an opportunity</a></nav>
+  </header>
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> Puget Sound's student opportunity radar</p>
+      <h1>Stop finding out<br><i>after</i> it happened.</h1>
+      <p class="hero-deck">Verified internships, workshops, competitions, conferences, research, and leadership programs across every field—not only tech.</p>
+      <div class="hero-actions"><a class="hero-primary" href="#opportunities">See what's next <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="{{SUBMIT_URL}}">Found one we missed?</a></div>
+      <div class="trust-row"><span><b>✓</b> {{COUNT}} researched listings</span><span><b>✓</b> 8 career fields</span><span><b>✓</b> No account needed to browse</span></div>
+    </div>
+    <div class="hero-panel" aria-label="Next opportunity preview">
+      <div class="panel-grid"></div><p class="panel-kicker">NEXT UP</p><div class="big-date"><strong>{{NEXT_DAY}}</strong><span>{{NEXT_MONTH}}<br>{{NEXT_YEAR}}</span></div>
+      <div class="panel-event"><p>{{NEXT_TITLE}}</p><span>{{NEXT_TYPE}} · {{NEXT_CITY}}</span></div><div class="panel-orbit orbit-one"></div><div class="panel-orbit orbit-two"></div><div class="panel-arrow">↗</div>
+    </div>
+  </section>
+  <section class="ticker" aria-label="Career fields"><div>MEDICINE &amp; HEALTH <span>✦</span> LAW &amp; CIVIC <span>✦</span> BUSINESS <span>✦</span> ENGINEERING <span>✦</span> ARTS &amp; MEDIA <span>✦</span> TECHNOLOGY <span>✦</span></div></section>
+  <section class="opportunities-section" id="opportunities">
+    <div class="section-heading"><div><p class="eyebrow"><span></span> Recently verified</p><h2>Opportunities worth<br>showing up for.</h2></div><p>Small events, major programs, and everything useful in between. Every listing links directly to its organizer.</p></div>
+    <div class="filter-bar" role="search">
+      <label class="search-box"><span class="sr-only">Search opportunities</span><span aria-hidden="true">⌕</span><input id="search" placeholder="Search opportunities…" autocomplete="off"></label>
+      <label><span class="sr-only">Filter by location</span><select id="city"><option>All locations</option>{{CITY_OPTIONS}}</select></label>
+      <label><span class="sr-only">Filter by field</span><select id="field"><option>All fields</option>{{FIELD_OPTIONS}}</select></label>
+      <label class="toggle-label"><input id="beginner" type="checkbox"><span class="toggle" aria-hidden="true"></span>Beginner-friendly</label>
+    </div>
+    <div class="result-count"><strong id="result-count">{{COUNT}}</strong> upcoming opportunities</div>
+    <div class="opportunity-grid" id="opportunity-grid">{{CARDS}}</div>
+    <div class="empty-state" id="empty-state" hidden><strong>No exact matches yet.</strong><p>Try clearing a filter—or submit an opportunity we should know about.</p></div>
+  </section>
+  <section class="how-section" id="how-it-works">
+    <div><p class="eyebrow light"><span></span> Built for trust</p><h2>Useful beats<br>overwhelming.</h2><p>NextUp PNW monitors official calendars and community sources, checks the important details, and removes expired listings automatically.</p></div>
+    <ol><li><span>01</span><div><strong>Discover</strong><p>We monitor schools, hospitals, law programs, business groups, museums, governments, nonprofits, and engineering and technology communities.</p></div></li><li><span>02</span><div><strong>Verify</strong><p>Dates, eligibility, location, cost, and official links are checked before publication.</p></div></li><li><span>03</span><div><strong>Keep current</strong><p>Finished opportunities disappear from the main directory, while new ones arrive every week.</p></div></li></ol>
+  </section>
+  <section class="submit-section"><div><p class="eyebrow"><span></span> Community powered</p><h2>The best opportunities<br>often start small.</h2></div><div><p>Know about an internship, pre-med program, law event, business competition, engineering team, arts workshop, or community resource we missed? Send the official link. The verification system handles the rest.</p><a class="hero-primary dark" href="{{SUBMIT_URL}}">Submit a resource <span aria-hidden="true">↗</span></a></div></section>
+  <footer><div class="brand footer-brand"><span class="brand-mark">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Built for students who refuse to hear “you should've applied” one week too late.</p><div><a href="{{REPO_URL}}">GitHub</a><a href="#how-it-works">Methodology</a><a href="{{SUBMIT_URL}}">Submit</a></div></footer>
+</main>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

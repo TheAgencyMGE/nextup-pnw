@@ -1,0 +1,86 @@
+name: Submit an opportunity
+description: Share a student opportunity or resource that NextUp PNW should verify.
+title: "[Submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping students find opportunities before the deadline. Please use the organizer's official page—not a repost or shortened link. The automated verifier checks submissions before publication.
+  - type: input
+    id: name
+    attributes:
+      label: Opportunity name
+      placeholder: Example — Seattle Student Build Day
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Official link
+      description: The organizer's registration or information page.
+      placeholder: https://example.org/event
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: Career field
+      options:
+        - Medicine & Health
+        - Law & Civic
+        - Business & Entrepreneurship
+        - Engineering & Science
+        - Arts & Media
+        - Leadership & Service
+        - Career & Research
+        - Technology
+        - Cross-disciplinary
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Opportunity type
+      options:
+        - Internship, apprenticeship, or job program
+        - Workshop, training, or seminar
+        - Competition, pitch, or hackathon
+        - Research, lab, or fellowship
+        - Mentorship or leadership program
+        - Career fair, conference, or networking event
+        - Volunteer or service opportunity
+        - Other resource
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: Seattle, WA or Hybrid
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Event date or deadline
+      description: ISO dates let the verifier process the submission automatically.
+      placeholder: 2026-10-17 or 2026-10-17 to 2026-10-18
+    validations:
+      required: true
+  - type: textarea
+    id: eligibility
+    attributes:
+      label: Who can participate?
+      placeholder: High school students; beginners welcome
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should students know about it?
+      placeholder: Tell us what makes this useful or unusual.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Quick check
+      options:
+        - label: I linked the organizer's official page and believe the opportunity is legitimate.
+          required: true

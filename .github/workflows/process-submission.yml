@@ -1,0 +1,66 @@
+name: Verify submitted opportunity
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    if: startsWith(github.event.issue.title, '[Submission]')
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify official source
+        run: python scripts/process_submission.py
+      - name: Read result
+        id: result
+        run: |
+          echo "status=$(python -c 'import json; print(json.load(open("submission-result.json"))["status"])')" >> "$GITHUB_OUTPUT"
+      - name: Build accepted submission
+        if: steps.result.outputs.status == 'accepted'
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/build_static.py
+          git config user.name "nextup-pnw-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git commit -m "Add community-submitted opportunity"
+          git push
+      - name: Respond to submitter
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const result = JSON.parse(fs.readFileSync('submission-result.json', 'utf8'));
+            await github.rest.issues.createComment({owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: `### Automated verification\n\n${result.message}`});
+            if (['accepted', 'duplicate', 'rejected'].includes(result.status)) {
+              await github.rest.issues.update({owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, state: 'closed'});
+            }
+      - uses: actions/configure-pages@v5
+        if: steps.result.outputs.status == 'accepted'
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.result.outputs.status == 'accepted'
+        with:
+          path: docs
+      - name: Deploy accepted submission
+        if: steps.result.outputs.status == 'accepted'
+        id: deployment
+        uses: actions/deploy-pages@v4

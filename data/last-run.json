@@ -1,58 +1,486 @@
 {
-  "mode": "verification",
-  "ranAt": "2026-08-24T14:30:47.578378+00:00",
-  "checkedCount": 113,
-  "activeCount": 125,
-  "archivedCount": 0,
-  "warningCount": 12,
-  "warnings": [
+  "mode": "discovery",
+  "ranAt": "2026-08-24T19:55:26.635358+00:00",
+  "newCount": 0,
+  "removedCount": 1,
+  "removedReasons": {
+    "not a relevant student opportunity": 1
+  },
+  "sourceCount": 41,
+  "fetchedCount": 374,
+  "parsedCount": 723,
+  "acceptedCount": 84,
+  "rejectedCount": 639,
+  "failureCount": 4,
+  "failures": [
     {
-      "id": "score-tech-pitch-final-2026",
-      "error": "HTTP Error 403: Forbidden"
+      "url": "https://bime.uw.edu/student_types/postgraduate-trainees/",
+      "error": "The read operation timed out",
+      "source": "uw-bime"
     },
     {
-      "id": "sam-preparing-the-past-2026",
-      "error": "HTTP Error 403: Forbidden"
+      "url": "https://www.score.org/greaterseattle/local-workshops",
+      "error": "HTTP Error 403: Forbidden",
+      "source": "score-greater-seattle"
     },
     {
-      "id": "uw-dawg-daze-2026",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "url": "https://www.seattleartmuseum.org/whats-on/events",
+      "error": "HTTP Error 403: Forbidden",
+      "source": "seattle-art-museum-events"
     },
     {
-      "id": "creative-advantage-institute-2026",
-      "error": "HTTP Error 403: Forbidden"
+      "url": "https://www.seattleartmuseum.org/whats-on/programs/internships",
+      "error": "HTTP Error 403: Forbidden",
+      "source": "seattle-art-museum-internships"
+    }
+  ],
+  "sources": [
+    {
+      "source": "uw-campus-calendar",
+      "fetched": 1,
+      "parsed": 200,
+      "accepted": 30,
+      "rejected": 170,
+      "rejectionReasons": {
+        "not a relevant student opportunity": 170
+      },
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "graduate-entrepreneurship-certificate-winter-2027",
-      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/entrepreneurship-certificate/"
+      "source": "uw-career-events",
+      "fetched": 18,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "we-lead-cohort-2026",
-      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/womens-entrepreneurial-leadership-program/"
+      "source": "uw-engineering-events",
+      "fetched": 14,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "sam-conservation-stories-2026",
-      "error": "HTTP Error 403: Forbidden"
+      "source": "uw-law-events",
+      "fetched": 16,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "wjea-j-day-west-2026",
-      "error": "robots.txt does not allow collection: https://wjea.org/"
+      "source": "uw-law-news-events",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "future-city-pnw-2026",
-      "error": "robots.txt does not allow collection: https://futurecity.org/future-city-regions/pacific-northwest/"
+      "source": "seattle-u-law-events",
+      "fetched": 17,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "we-lead-mentoring-2027",
-      "error": "robots.txt does not allow collection: https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/womens-entrepreneurial-leadership-program/"
+      "source": "seattle-u-law-recruiting",
+      "fetched": 13,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "sam-beneath-the-surface-2026",
-      "error": "HTTP Error 403: Forbidden"
+      "source": "uw-global-health",
+      "fetched": 14,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     },
     {
-      "id": "king-county-public-defense-internship-2027",
-      "error": "robots.txt does not allow collection: https://kingcounty.gov/en/dept/dpd/about-public-defense/jobs-internships"
+      "source": "uw-health-sciences-library",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "uw-bime",
+      "fetched": 11,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 1,
+      "failures": [
+        {
+          "url": "https://bime.uw.edu/student_types/postgraduate-trainees/",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
+    {
+      "source": "fred-hutch-events",
+      "fetched": 19,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "fred-hutch-rrt",
+      "fetched": 9,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-childrens-research-training",
+      "fetched": 1,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "startup425",
+      "fetched": 19,
+      "parsed": 18,
+      "accepted": 0,
+      "rejected": 18,
+      "rejectionReasons": {
+        "missing official detail URL": 18
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "uw-foster-events",
+      "fetched": 16,
+      "parsed": 2,
+      "accepted": 0,
+      "rejected": 2,
+      "rejectionReasons": {
+        "expired or missing date": 2
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "uw-buerk-entrepreneurship",
+      "fetched": 17,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "score-greater-seattle",
+      "fetched": 0,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 1,
+      "failures": [
+        {
+          "url": "https://www.score.org/greaterseattle/local-workshops",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "source": "port-seattle-internships",
+      "fetched": 12,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "king-county-youth-opportunities",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "king-county-public-defense",
+      "fetched": 11,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-schools-internships",
+      "fetched": 16,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-parks-teen-programs",
+      "fetched": 1,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-youth-employment",
+      "fetched": 1,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-art-museum-events",
+      "fetched": 0,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 1,
+      "failures": [
+        {
+          "url": "https://www.seattleartmuseum.org/whats-on/events",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "source": "seattle-art-museum-internships",
+      "fetched": 0,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 1,
+      "failures": [
+        {
+          "url": "https://www.seattleartmuseum.org/whats-on/programs/internships",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "source": "wjea-events",
+      "fetched": 8,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "pacific-science-center-events",
+      "fetched": 12,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "future-city-pnw",
+      "fetched": 5,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "same-seattle-events",
+      "fetched": 8,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "wtia-events",
+      "fetched": 2,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-library-events",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "king-county-library-events",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "sno-isle-events",
+      "fetched": 15,
+      "parsed": 2,
+      "accepted": 0,
+      "rejected": 2,
+      "rejectionReasons": {
+        "not a relevant student opportunity": 1,
+        "outside the coverage area": 1
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "tacoma-library-events",
+      "fetched": 15,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "uw-bothell-calendar",
+      "fetched": 1,
+      "parsed": 200,
+      "accepted": 9,
+      "rejected": 191,
+      "rejectionReasons": {
+        "not a relevant student opportunity": 191
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "uw-tacoma-calendar",
+      "fetched": 1,
+      "parsed": 200,
+      "accepted": 15,
+      "rejected": 185,
+      "rejectionReasons": {
+        "not a relevant student opportunity": 185
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-u-events",
+      "fetched": 1,
+      "parsed": 100,
+      "accepted": 30,
+      "rejected": 70,
+      "rejectionReasons": {
+        "not a relevant student opportunity": 70
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "bellevue-college-events",
+      "fetched": 1,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "frontier-cascadia",
+      "fetched": 1,
+      "parsed": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "rejectionReasons": {
+        "missing official detail URL": 1
+      },
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "space-apps-seattle",
+      "fetched": 1,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "source": "seattle-givecamp",
+      "fetched": 2,
+      "parsed": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "rejectionReasons": {},
+      "failureCount": 0,
+      "failures": []
     }
   ]
 }

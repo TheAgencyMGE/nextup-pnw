@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 test("renders the complete NextUp PNW experience", async () => {
+  const opportunities = JSON.parse(await readFile(new URL("../data/opportunities.json", import.meta.url), "utf8"));
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
@@ -13,7 +15,7 @@ test("renders the complete NextUp PNW experience", async () => {
   assert.match(body, /Frontier Cascadia/);
   assert.match(body, /Medicine &amp; Health/);
   assert.match(body, /WCC Seattle Law Fair/);
-  assert.match(body, /40(?:<!-- -->)? researched listings/);
+  assert.match(body, new RegExp(`${opportunities.length}(?:<!-- -->)? researched listings`));
   assert.match(body, /Submit an opportunity/);
   assert.doesNotMatch(body, /codex-preview/);
 });

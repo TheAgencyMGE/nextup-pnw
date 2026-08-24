@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Official opportunities</title>
+    <item>
+      <title>Tacoma Engineering Career Fair</title>
+      <link>/events/engineering-career-fair</link>
+      <description>Meet engineering employers and learn about internships in Tacoma.</description>
+      <pubDate>Mon, 10 Aug 2099 10:00:00 -0700</pubDate>
+      <startDate>2099-10-12T10:00:00-07:00</startDate>
+      <endDate>2099-10-12T14:00:00-07:00</endDate>
+      <location>Tacoma Convention Center, Tacoma, WA</location>
+    </item>
+  </channel>
+</rss>

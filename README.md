@@ -11,9 +11,10 @@ The service is built as a zero-backend GitHub Pages site. Public browsing requir
 - Mobile-first searchable directory
 - Filters for career field, location, search, and beginner accessibility
 - Individual SEO-friendly event pages with Schema.org `Event` data
-- Forty researched starter opportunities across eight career fields
+- More than 100 active opportunities across eight career fields after the initial live-source refresh
 - Forty-three monitored regional sources, prioritizing official organizers
-- Conservative automatic publishing based on location, relevance, recency, and source confidence
+- Multi-format discovery from JSON-LD, JSON calendar APIs, RSS/Atom, iCalendar, and structured HTML
+- Conservative automatic publishing based on location, relevance, recency, source confidence, and calendar-noise rejection
 - Duplicate detection and automatic expiration
 - Community submission form powered by GitHub Issue Forms
 - Automatic validation and publication of high-confidence submissions

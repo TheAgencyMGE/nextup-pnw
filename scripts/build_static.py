@@ -23,7 +23,7 @@ def esc(value: object) -> str:
 def date_label(start: str, end: str | None) -> str:
     first = datetime.strptime(start, "%Y-%m-%d")
     if not end or end == start:
-        return first.strftime("%b %-d, %Y")
+        return f"{first.strftime('%b')} {first.day}, {first.year}"
     last = datetime.strptime(end, "%Y-%m-%d")
     if first.month == last.month:
         return f"{first.strftime('%b')} {first.day}–{last.day}, {last.year}"
@@ -67,6 +67,9 @@ def main() -> int:
     repo_url = f"https://github.com/{repository}"
     submit_url = f"{repo_url}/issues/new?template=submit-opportunity.yml"
     items = sorted((item for item in load_json(DATA_FILE, []) if item.get("status") != "closed"), key=lambda item: item["startDate"])
+    opportunity_pages = OUT / "opportunities"
+    if opportunity_pages.exists():
+        shutil.rmtree(opportunity_pages)
     OUT.mkdir(exist_ok=True); ASSETS.mkdir(exist_ok=True)
     css = (ROOT / "app" / "globals.css").read_text(encoding="utf-8")
     css = re.sub(r'^@import[^\n]+\n+', '', css)

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NextUp PNW Test//EN
+BEGIN:VEVENT
+UID:mentorship-2099@example.org
+DTSTART:20991103T180000Z
+DTEND:20991103T200000Z
+SUMMARY:Bellevue Youth Mentorship Orientation
+DESCRIPTION:Learn about a year-long career mentorship program for high school students.
+LOCATION:Bellevue Library\, Bellevue\, WA
+URL:/events/youth-mentorship
+END:VEVENT
+END:VCALENDAR

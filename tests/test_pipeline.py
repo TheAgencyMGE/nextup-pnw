@@ -254,8 +254,18 @@ class PipelineTests(unittest.TestCase):
         index = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("NextUp PNW", index)
         self.assertIn("TheAgencyMGE/nextup-pnw/issues/new", index)
+        self.assertIn("What’s next around Puget Sound", index)
+        self.assertIn('class="opportunity-list"', index)
+        self.assertIn('class="opportunity-row"', index)
+        self.assertIn('id="reset-filters"', index)
+        self.assertIn("View official listing", index)
+        self.assertNotIn('class="hero-panel"', index)
+        self.assertNotIn('class="opportunity-grid"', index)
         first_id = json.loads((ROOT / "data" / "opportunities.json").read_text(encoding="utf-8"))[0]["id"]
         self.assertTrue((ROOT / "docs" / "opportunities" / first_id / "index.html").exists())
+        detail = (ROOT / "docs" / "opportunities" / first_id / "index.html").read_text(encoding="utf-8")
+        self.assertIn("Open official listing", detail)
+        self.assertIn('class="detail-facts"', detail)
         self.assertFalse(stale.exists())
 
 

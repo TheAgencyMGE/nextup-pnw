@@ -11,11 +11,12 @@ test("renders the complete NextUp PNW experience", async () => {
   assert.equal(response.status, 200);
   const body = await response.text();
   assert.match(body, /<title>NextUp PNW/);
-  assert.match(body, /Stop finding out/);
-  assert.match(body, /Frontier Cascadia/);
+  assert.match(body, /What(?:’|&#x27;|')s next around Puget Sound/);
   assert.match(body, /Medicine &amp; Health/);
-  assert.match(body, /WCC Seattle Law Fair/);
-  assert.match(body, new RegExp(`${opportunities.length}(?:<!-- -->)? researched listings`));
-  assert.match(body, /Submit an opportunity/);
+  assert.match(body, new RegExp(`${opportunities.length}(?:<!-- -->)? active listings`));
+  assert.match(body, /Send an official link/);
+  assert.match(body, /View official listing/);
+  assert.doesNotMatch(body, /hero-panel/);
+  assert.doesNotMatch(body, /opportunity-grid/);
   assert.doesNotMatch(body, /codex-preview/);
 });

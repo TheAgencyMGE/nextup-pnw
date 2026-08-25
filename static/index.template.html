@@ -3,58 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>NextUp PNW — Student Opportunities Around Seattle</title>
-  <meta name="description" content="Verified internships, workshops, competitions, research, and leadership programs across medicine, law, business, engineering, arts, public service, and technology in the Puget Sound.">
-  <meta name="theme-color" content="#173f31">
+  <title>NextUp PNW — Student Opportunities Around Puget Sound</title>
+  <meta name="description" content="Internships, workshops, fairs, competitions, research programs, and student events from official Puget Sound organizers.">
+  <meta name="theme-color" content="#12372a">
   <link rel="canonical" href="{{BASE_URL}}/">
   <link rel="icon" href="assets/favicon.svg">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="assets/styles.css">
   <meta property="og:title" content="NextUp PNW">
-  <meta property="og:description" content="Stop finding out after it happened. Find verified student opportunities across the Puget Sound.">
+  <meta property="og:description" content="What’s next around Puget Sound: student opportunities sorted by date and tied to official sources.">
   <meta property="og:image" content="{{BASE_URL}}/assets/og.png">
   <meta property="og:url" content="{{BASE_URL}}/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-<main>
+<main id="top">
   <header class="site-header">
     <a class="brand" href="#top" aria-label="NextUp PNW home"><span class="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></a>
-    <nav aria-label="Main navigation"><a href="#opportunities">Explore</a><a href="#how-it-works">How it works</a><a class="submit-nav" href="{{SUBMIT_URL}}">Submit an opportunity</a></nav>
+    <nav aria-label="Main navigation"><a href="#opportunities">Directory</a><a href="#method">How listings are checked</a><a class="submit-nav" href="{{SUBMIT_URL}}">Send an official link</a></nav>
   </header>
-  <section class="hero" id="top">
-    <div class="hero-copy">
-      <p class="eyebrow"><span></span> Puget Sound's student opportunity radar</p>
-      <h1>Stop finding out<br><i>after</i> it happened.</h1>
-      <p class="hero-deck">Verified internships, workshops, competitions, conferences, research, and leadership programs across every field—not only tech.</p>
-      <div class="hero-actions"><a class="hero-primary" href="#opportunities">See what's next <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="{{SUBMIT_URL}}">Found one we missed?</a></div>
-      <div class="trust-row"><span><b>✓</b> {{COUNT}} researched listings</span><span><b>✓</b> 8 career fields</span><span><b>✓</b> No account needed to browse</span></div>
+
+  <section class="intro" aria-labelledby="intro-title">
+    <div>
+      <p class="context-line">Puget Sound · Student opportunity directory</p>
+      <h1 id="intro-title">What’s next around Puget Sound.</h1>
+      <p class="intro-copy">Find internships, workshops, career fairs, competitions, research programs, and community events before the date passes. Every result links to its organizer.</p>
+      <a class="jump-link" href="#opportunities">Browse opportunities <span aria-hidden="true">↓</span></a>
     </div>
-    <div class="hero-panel" aria-label="Next opportunity preview">
-      <div class="panel-grid"></div><p class="panel-kicker">NEXT UP</p><div class="big-date"><strong>{{NEXT_DAY}}</strong><span>{{NEXT_MONTH}}<br>{{NEXT_YEAR}}</span></div>
-      <div class="panel-event"><p>{{NEXT_TITLE}}</p><span>{{NEXT_TYPE}} · {{NEXT_CITY}}</span></div><div class="panel-orbit orbit-one"></div><div class="panel-orbit orbit-two"></div><div class="panel-arrow">↗</div>
+    <aside class="directory-brief" aria-label="Directory summary">
+      <p class="brief-count"><strong>{{COUNT}}</strong><span>active listings</span></p>
+      <p>Across {{FIELD_COUNT}} fields and {{CITY_COUNT}} Puget Sound locations.</p>
+      <p class="kept-line">Stop finding out after it happened.</p>
+    </aside>
+  </section>
+
+  <section class="opportunities-section" id="opportunities" aria-labelledby="directory-title">
+    <div class="directory-heading"><div><p class="section-index">Directory / Updated weekly</p><h2 id="directory-title">Upcoming opportunities</h2></div><p>Sorted by start date. Use the filters to narrow the list.</p></div>
+    <div class="filter-bar" role="search" aria-label="Filter opportunities">
+      <label class="search-field"><span>Search</span><input id="search" placeholder="Title, organizer, or keyword" autocomplete="off"></label>
+      <label><span>Location</span><select id="city"><option>All locations</option>{{CITY_OPTIONS}}</select></label>
+      <label><span>Field</span><select id="field"><option>All fields</option>{{FIELD_OPTIONS}}</select></label>
+      <label class="check-label"><input id="beginner" type="checkbox"><span>Beginner-friendly only</span></label>
+      <button class="reset-button" id="reset-filters" type="button" disabled>Reset filters</button>
     </div>
+    <div class="result-summary" aria-live="polite"><strong id="result-count">{{COUNT}}</strong> <span id="result-label">listings</span></div>
+    <div class="opportunity-list" id="opportunity-list">{{CARDS}}</div>
+    <div class="empty-state" id="empty-state" hidden><strong>No listings match those filters.</strong><p>Reset the directory or send an official opportunity link for review.</p><div><button id="empty-reset" type="button">Reset filters</button><a href="{{SUBMIT_URL}}">Send an official link</a></div></div>
   </section>
-  <section class="ticker" aria-label="Career fields"><div>MEDICINE &amp; HEALTH <span>✦</span> LAW &amp; CIVIC <span>✦</span> BUSINESS <span>✦</span> ENGINEERING <span>✦</span> ARTS &amp; MEDIA <span>✦</span> TECHNOLOGY <span>✦</span></div></section>
-  <section class="opportunities-section" id="opportunities">
-    <div class="section-heading"><div><p class="eyebrow"><span></span> Recently verified</p><h2>Opportunities worth<br>showing up for.</h2></div><p>Small events, major programs, and everything useful in between. Every listing links directly to its organizer.</p></div>
-    <div class="filter-bar" role="search">
-      <label class="search-box"><span class="sr-only">Search opportunities</span><span aria-hidden="true">⌕</span><input id="search" placeholder="Search opportunities…" autocomplete="off"></label>
-      <label><span class="sr-only">Filter by location</span><select id="city"><option>All locations</option>{{CITY_OPTIONS}}</select></label>
-      <label><span class="sr-only">Filter by field</span><select id="field"><option>All fields</option>{{FIELD_OPTIONS}}</select></label>
-      <label class="toggle-label"><input id="beginner" type="checkbox"><span class="toggle" aria-hidden="true"></span>Beginner-friendly</label>
-    </div>
-    <div class="result-count"><strong id="result-count">{{COUNT}}</strong> upcoming opportunities</div>
-    <div class="opportunity-grid" id="opportunity-grid">{{CARDS}}</div>
-    <div class="empty-state" id="empty-state" hidden><strong>No exact matches yet.</strong><p>Try clearing a filter—or submit an opportunity we should know about.</p></div>
+
+  <section class="method-section" id="method" aria-labelledby="method-title">
+    <div class="method-lead"><p class="section-index">How the directory works</p><h2 id="method-title">Useful details, tied to a source.</h2></div>
+    <dl class="method-list">
+      <div><dt>Collected</dt><dd>Official calendars and organizer pages across schools, governments, nonprofits, hospitals, museums, and industry groups.</dd></div>
+      <div><dt>Checked</dt><dd>Date, location, eligibility, cost, and a working organizer link are required before a listing appears.</dd></div>
+      <div><dt>Kept current</dt><dd>Past opportunities leave the active directory. New and updated records are merged without erasing valid listings from partial feeds.</dd></div>
+    </dl>
   </section>
-  <section class="how-section" id="how-it-works">
-    <div><p class="eyebrow light"><span></span> Built for trust</p><h2>Useful beats<br>overwhelming.</h2><p>NextUp PNW monitors official calendars and community sources, checks the important details, and removes expired listings automatically.</p></div>
-    <ol><li><span>01</span><div><strong>Discover</strong><p>We monitor schools, hospitals, law programs, business groups, museums, governments, nonprofits, and engineering and technology communities.</p></div></li><li><span>02</span><div><strong>Verify</strong><p>Dates, eligibility, location, cost, and official links are checked before publication.</p></div></li><li><span>03</span><div><strong>Keep current</strong><p>Finished opportunities disappear from the main directory, while new ones arrive every week.</p></div></li></ol>
+
+  <section class="submit-section" aria-labelledby="submit-title">
+    <div><p class="section-index">Missing something?</p><h2 id="submit-title">Send the organizer’s link.</h2></div>
+    <div><p>Share the official page for a Puget Sound internship, program, competition, workshop, fair, or student event. We’ll check the details before it appears here.</p><a class="submit-link" href="{{SUBMIT_URL}}">Send an official link <span aria-hidden="true">↗</span></a></div>
   </section>
-  <section class="submit-section"><div><p class="eyebrow"><span></span> Community powered</p><h2>The best opportunities<br>often start small.</h2></div><div><p>Know about an internship, pre-med program, law event, business competition, engineering team, arts workshop, or community resource we missed? Send the official link. The verification system handles the rest.</p><a class="hero-primary dark" href="{{SUBMIT_URL}}">Submit a resource <span aria-hidden="true">↗</span></a></div></section>
-  <footer><div class="brand footer-brand"><span class="brand-mark">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Built for students who refuse to hear “you should've applied” one week too late.</p><div><a href="{{REPO_URL}}">GitHub</a><a href="#how-it-works">Methodology</a><a href="{{SUBMIT_URL}}">Submit</a></div></footer>
+
+  <footer><div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities around Puget Sound, sorted by what’s next.</p><div><a href="{{REPO_URL}}">GitHub</a><a href="#method">Method</a><a href="{{SUBMIT_URL}}">Submit a link</a></div></footer>
 </main>
 <script src="assets/app.js" defer></script>
 </body>

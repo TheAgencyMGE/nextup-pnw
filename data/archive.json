@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "zoom-information-session-school-of-art-art-history-design-2026",
+    "title": "Zoom Information Session – School of Art + Art History + Design",
+    "organizer": "University of Washington Campus Calendar",
+    "field": "Arts & Media",
+    "type": "Workshop",
+    "format": "In person",
+    "city": "Puget Sound",
+    "venue": "See official page",
+    "startDate": "2026-08-24",
+    "endDate": "2026-08-24",
+    "deadline": null,
+    "status": "closed",
+    "cost": "See official page",
+    "eligibility": "the session by exploring our undergraduate degree programs on our website",
+    "skillLevel": "Not stated",
+    "beginnerFriendly": false,
+    "description": "We invite high school seniors, transfer and current UW students interested in majoring in one of our programs to attend an info session to learn about the School of Art + Art History + Design and its programs. Prospective students can prepare for the session by exploring our undergraduate degree programs on our website .",
+    "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
+    "sourceUrl": "https://calendar.washington.edu/sea_campus/",
+    "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204774174",
+    "verifiedAt": "2026-08-24",
+    "tags": [
+      "arts & media",
+      "puget sound",
+      "workshop"
+    ],
+    "confidence": 0.99,
+    "sourceId": "uw-campus-calendar",
+    "archivedAt": "2026-08-25"
+  }
+]

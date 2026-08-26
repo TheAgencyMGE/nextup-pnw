@@ -1,10 +1,10 @@
 {
   "mode": "verification",
-  "ranAt": "2026-08-25T14:32:15.574722+00:00",
+  "ranAt": "2026-08-26T14:32:00.260862+00:00",
   "checkedCount": 106,
-  "activeCount": 110,
-  "archivedCount": 1,
-  "warningCount": 4,
+  "activeCount": 109,
+  "archivedCount": 2,
+  "warningCount": 3,
   "warnings": [
     {
       "id": "score-tech-pitch-final-2026",
@@ -16,10 +16,6 @@
     },
     {
       "id": "sam-conservation-stories-2026",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "id": "wjea-j-day-west-2026",
       "error": "HTTP Error 403: Forbidden"
     }
   ]

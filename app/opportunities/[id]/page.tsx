@@ -36,6 +36,9 @@ export default async function OpportunityPage({ params }: { params: Promise<{ id
   const item = opportunities.find((opportunity) => opportunity.id === id);
   if (!item) notFound();
   const officialUrl = item.registrationUrl || item.sourceUrl;
+  const locationJsonLd = item.format === "Online"
+    ? { "@type": "VirtualLocation", url: officialUrl }
+    : { "@type": "Place", name: item.venue, address: { "@type": "PostalAddress", ...(item.city === "Location TBD" ? {} : { addressLocality: item.city }), addressRegion: item.region || "WA", addressCountry: item.region === "BC" ? "CA" : "US" } };
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -45,7 +48,7 @@ export default async function OpportunityPage({ params }: { params: Promise<{ id
     endDate: item.endDate || item.startDate,
     eventAttendanceMode: item.format === "Online" ? "https://schema.org/OnlineEventAttendanceMode" : "https://schema.org/OfflineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
-    location: { "@type": "Place", name: item.venue, address: { "@type": "PostalAddress", addressLocality: item.city, addressRegion: "WA", addressCountry: "US" } },
+    location: locationJsonLd,
     organizer: { "@type": "Organization", name: item.organizer, url: item.sourceUrl },
     url: officialUrl,
   };
@@ -84,7 +87,7 @@ export default async function OpportunityPage({ params }: { params: Promise<{ id
         </div>
       </section>
 
-      <footer><div className="brand footer-brand"><span className="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities around Puget Sound, sorted by what’s next.</p><div><Link href="/">Home</Link><a href={submitUrl} target="_blank" rel="noreferrer">Submit a link</a></div></footer>
+      <footer><div className="brand footer-brand"><span className="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities across the Pacific Northwest, sorted by what’s next.</p><div><Link href="/">Home</Link><a href={submitUrl} target="_blank" rel="noreferrer">Submit a link</a></div></footer>
     </main>
   );
 }

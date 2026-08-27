@@ -37,12 +37,13 @@ def replace(template: str, values: dict[str, object]) -> str:
 
 
 def card(item: dict) -> str:
-    searchable = " ".join([item["title"], item["organizer"], item["field"], item["city"], item["type"], item["description"], *item.get("tags", [])]).lower()
+    region = item.get("region") or "WA"
+    searchable = " ".join([item["title"], item["organizer"], item["field"], item["city"], region, item["type"], item["description"], *item.get("tags", [])]).lower()
     beginner_html = '<span class="beginner-label">Beginner-friendly</span>' if item.get("beginnerFriendly") else ""
     deadline_html = f'<p class="deadline-note"><span>Apply by</span>{esc(date_label(item["deadline"], item["deadline"]))}</p>' if item.get("deadline") else ""
     short_date = re.sub(r", 20\d{2}", "", date_label(item["startDate"], item.get("endDate")))
     official_url = esc(item.get("registrationUrl") or item["sourceUrl"])
-    return f'''<article class="opportunity-row" data-city="{esc(item['city'])}" data-field="{esc(item['field'])}" data-beginner="{str(bool(item.get('beginnerFriendly'))).lower()}" data-search="{esc(searchable)}">
+    return f'''<article class="opportunity-row" data-city="{esc(item['city'])}" data-region="{esc(region)}" data-field="{esc(item['field'])}" data-beginner="{str(bool(item.get('beginnerFriendly'))).lower()}" data-search="{esc(searchable)}">
       <div class="date-rail"><time datetime="{esc(item['startDate'])}">{esc(short_date)}</time><span>{esc(item['startDate'][:4])}</span></div>
       <div class="row-main">
         <div class="row-flags"><span class="status status-{esc(item['status'])}">{esc(item['status'])}</span><span class="field-label">{esc(item['field'])}</span>{beginner_html}</div>
@@ -57,7 +58,15 @@ def card(item: dict) -> str:
 def build_detail(item: dict, base_url: str, submit_url: str) -> str:
     template = (ROOT / "static" / "detail.template.html").read_text(encoding="utf-8")
     canonical = f"{base_url}/opportunities/{item['id']}/"
-    event = {"@context":"https://schema.org","@type":"Event","name":item["title"],"description":item["description"],"startDate":item["startDate"],"endDate":item.get("endDate") or item["startDate"],"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode" if item["format"] == "Online" else "https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":item["venue"],"address":{"@type":"PostalAddress","addressLocality":item["city"],"addressRegion":"WA","addressCountry":"US"}},"organizer":{"@type":"Organization","name":item["organizer"],"url":item["sourceUrl"]},"url":item.get("registrationUrl") or item["sourceUrl"]}
+    region = item.get("region") or "WA"
+    if item["format"] == "Online":
+        location_schema = {"@type": "VirtualLocation", "url": item.get("registrationUrl") or item["sourceUrl"]}
+    else:
+        address = {"@type":"PostalAddress","addressRegion":region,"addressCountry":"CA" if region == "BC" else "US"}
+        if item["city"] != "Location TBD":
+            address["addressLocality"] = item["city"]
+        location_schema = {"@type":"Place","name":item["venue"],"address":address}
+    event = {"@context":"https://schema.org","@type":"Event","name":item["title"],"description":item["description"],"startDate":item["startDate"],"endDate":item.get("endDate") or item["startDate"],"eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode" if item["format"] == "Online" else "https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","location":location_schema,"organizer":{"@type":"Organization","name":item["organizer"],"url":item["sourceUrl"]},"url":item.get("registrationUrl") or item["sourceUrl"]}
     return replace(template, {"TITLE":esc(item["title"]),"DESCRIPTION":esc(item["description"]),"CANONICAL":canonical,"JSON_LD":json.dumps(event).replace("</", "<\\/"),"SUBMIT_URL":submit_url,"STATUS":esc(item["status"]),"VERIFIED":esc(item["verifiedAt"]),"FIELD":esc(item["field"]),"TYPE":esc(item["type"]),"CITY":esc(item["city"]),"ORGANIZER":esc(item["organizer"]),"WHY":esc(item["whyItStandsOut"]),"OFFICIAL_URL":esc(item.get("registrationUrl") or item["sourceUrl"]),"DATE":esc(date_label(item["startDate"],item.get("endDate"))),"VENUE":esc(item["venue"]),"ELIGIBILITY":esc(item["eligibility"]),"COST":esc(item["cost"]),"FORMAT":esc(item["format"])})
 
 
@@ -80,8 +89,10 @@ def main() -> int:
     shutil.copy2(ROOT / "public" / "og.png", ASSETS / "og.png")
     template = (ROOT / "static" / "index.template.html").read_text(encoding="utf-8")
     city_values = sorted({item["city"] for item in items})
+    region_labels = {"WA":"Washington", "OR":"Oregon", "ID":"Idaho", "BC":"British Columbia"}
+    region_values = [region for region in ("WA", "OR", "ID", "BC") if any((item.get("region") or "WA") == region for item in items)]
     field_values = sorted({item["field"] for item in items})
-    index = replace(template, {"BASE_URL":base_url,"SUBMIT_URL":submit_url,"REPO_URL":repo_url,"CITY_COUNT":len(city_values),"FIELD_COUNT":len(field_values),"CITY_OPTIONS":"".join(f"<option>{esc(value)}</option>" for value in city_values),"FIELD_OPTIONS":"".join(f"<option>{esc(value)}</option>" for value in field_values),"COUNT":len(items),"CARDS":"".join(card(item) for item in items)})
+    index = replace(template, {"BASE_URL":base_url,"SUBMIT_URL":submit_url,"REPO_URL":repo_url,"CITY_COUNT":len(city_values),"FIELD_COUNT":len(field_values),"REGION_OPTIONS":"".join(f'<option value="{region}">{region_labels[region]}</option>' for region in region_values),"CITY_OPTIONS":"".join(f"<option>{esc(value)}</option>" for value in city_values),"FIELD_OPTIONS":"".join(f"<option>{esc(value)}</option>" for value in field_values),"COUNT":len(items),"CARDS":"".join(card(item) for item in items)})
     (OUT / "index.html").write_text(index, encoding="utf-8")
     for item in items:
         directory = OUT / "opportunities" / item["id"]

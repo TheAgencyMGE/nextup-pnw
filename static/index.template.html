@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>NextUp PNW — Student Opportunities Around Puget Sound</title>
-  <meta name="description" content="Internships, workshops, fairs, competitions, research programs, and student events from official Puget Sound organizers.">
+  <title>NextUp PNW — Student Opportunities Across the Pacific Northwest</title>
+  <meta name="description" content="Internships, workshops, fairs, competitions, research programs, and student events across Washington, Oregon, Idaho, and British Columbia.">
   <meta name="theme-color" content="#12372a">
   <link rel="canonical" href="{{BASE_URL}}/">
   <link rel="icon" href="assets/favicon.svg">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="assets/styles.css">
   <meta property="og:title" content="NextUp PNW">
-  <meta property="og:description" content="What’s next around Puget Sound: student opportunities sorted by date and tied to official sources.">
+  <meta property="og:description" content="What’s next across the Pacific Northwest: student opportunities sorted by date and tied to official sources.">
   <meta property="og:image" content="{{BASE_URL}}/assets/og.png">
   <meta property="og:url" content="{{BASE_URL}}/">
   <meta property="og:type" content="website">
@@ -26,14 +26,14 @@
 
   <section class="intro" aria-labelledby="intro-title">
     <div>
-      <p class="context-line">Puget Sound · Student opportunity directory</p>
-      <h1 id="intro-title">What’s next around Puget Sound.</h1>
+      <p class="context-line">Washington, Oregon, Idaho, and British Columbia</p>
+      <h1 id="intro-title">What’s next across the Pacific Northwest.</h1>
       <p class="intro-copy">Find internships, workshops, career fairs, competitions, research programs, and community events before the date passes. Every result links to its organizer.</p>
       <a class="jump-link" href="#opportunities">Browse opportunities <span aria-hidden="true">↓</span></a>
     </div>
     <aside class="directory-brief" aria-label="Directory summary">
       <p class="brief-count"><strong>{{COUNT}}</strong><span>active listings</span></p>
-      <p>Across {{FIELD_COUNT}} fields and {{CITY_COUNT}} Puget Sound locations.</p>
+      <p>Across four PNW regions, {{FIELD_COUNT}} fields, and {{CITY_COUNT}} locations.</p>
       <p class="kept-line">Stop finding out after it happened.</p>
     </aside>
   </section>
@@ -42,6 +42,7 @@
     <div class="directory-heading"><div><p class="section-index">Directory / Updated weekly</p><h2 id="directory-title">Upcoming opportunities</h2></div><p>Sorted by start date. Use the filters to narrow the list.</p></div>
     <div class="filter-bar" role="search" aria-label="Filter opportunities">
       <label class="search-field"><span>Search</span><input id="search" placeholder="Title, organizer, or keyword" autocomplete="off"></label>
+      <label><span>Region</span><select id="region"><option value="All regions">All regions</option>{{REGION_OPTIONS}}</select></label>
       <label><span>Location</span><select id="city"><option>All locations</option>{{CITY_OPTIONS}}</select></label>
       <label><span>Field</span><select id="field"><option>All fields</option>{{FIELD_OPTIONS}}</select></label>
       <label class="check-label"><input id="beginner" type="checkbox"><span>Beginner-friendly only</span></label>
@@ -63,10 +64,10 @@
 
   <section class="submit-section" aria-labelledby="submit-title">
     <div><p class="section-index">Missing something?</p><h2 id="submit-title">Send the organizer’s link.</h2></div>
-    <div><p>Share the official page for a Puget Sound internship, program, competition, workshop, fair, or student event. We’ll check the details before it appears here.</p><a class="submit-link" href="{{SUBMIT_URL}}">Send an official link <span aria-hidden="true">↗</span></a></div>
+    <div><p>Share the official page for a Pacific Northwest internship, program, competition, workshop, fair, or student event. We’ll check the details before it appears here.</p><a class="submit-link" href="{{SUBMIT_URL}}">Send an official link <span aria-hidden="true">↗</span></a></div>
   </section>
 
-  <footer><div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities around Puget Sound, sorted by what’s next.</p><div><a href="{{REPO_URL}}">GitHub</a><a href="#method">Method</a><a href="{{SUBMIT_URL}}">Submit a link</a></div></footer>
+  <footer><div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities across the Pacific Northwest, sorted by what’s next.</p><div><a href="{{REPO_URL}}">GitHub</a><a href="#method">Method</a><a href="{{SUBMIT_URL}}">Submit a link</a></div></footer>
 </main>
 <script src="assets/app.js" defer></script>
 </body>

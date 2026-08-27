@@ -11,10 +11,14 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_static import date_label
-from opportunity_utils import _ROBOTS, can_fetch, canonical_url, dedupe_key, extract_jsonld, qualifies, schema_to_opportunity, unique_opportunity_id
+from opportunity_utils import _ROBOTS, can_fetch, canonical_url, city_from, clean_text, dedupe_key, extract_jsonld, pnw_region, qualifies, schema_to_opportunity, unique_opportunity_id
 
 
 class PipelineTests(unittest.TestCase):
+    def test_clean_text_decodes_nested_entities_and_feed_escape_sequences(self):
+        self.assertEqual(clean_text("First&amp;nbsp;Second\\nThird\u200b"), "First Second Third")
+        self.assertEqual(clean_text("First sentence.nbsp;Second sentence."), "First sentence. Second sentence.")
+
     def test_robots_fetch_is_bounded_and_honors_disallow(self):
         class Response:
             def __enter__(self):
@@ -84,6 +88,84 @@ class PipelineTests(unittest.TestCase):
         }
         self.assertTrue(qualifies(item, date(2099, 1, 1))[0])
 
+    def test_recognizes_all_requested_pnw_regions_from_structured_addresses(self):
+        cases = (
+            ("Spokane", "WA", "WA"),
+            ("Portland", "Oregon", "OR"),
+            ("Boise", "ID", "ID"),
+            ("Vancouver", "British Columbia", "BC"),
+        )
+        for city, address_region, expected_region in cases:
+            with self.subTest(city=city):
+                schema = {
+                    "@type": "Event",
+                    "name": f"{city} Student Career Workshop",
+                    "startDate": "2099-09-01",
+                    "description": "A hands-on career workshop for students.",
+                    "location": {"name": "Campus", "address": {"addressLocality": city, "addressRegion": address_region}},
+                    "url": f"https://example.org/{city.lower()}",
+                }
+                item = schema_to_opportunity(schema, "https://example.org/events", 0.97, "2099-01-01")
+                self.assertEqual(item["region"], expected_region)
+                self.assertEqual(item["city"], city)
+                self.assertTrue(qualifies(item, date(2099, 1, 1))[0])
+
+    def test_rejects_west_coast_event_outside_requested_pnw_regions(self):
+        schema = {
+            "@type": "Event",
+            "name": "San Francisco Student Career Workshop",
+            "startDate": "2099-09-01",
+            "description": "A hands-on career workshop for students.",
+            "location": {"name": "Campus", "address": {"addressLocality": "San Francisco", "addressRegion": "CA"}},
+            "url": "https://example.org/san-francisco",
+        }
+        item = schema_to_opportunity(schema, "https://example.org/events", 0.97, "2099-01-01")
+        self.assertEqual(qualifies(item, date(2099, 1, 1)), (False, "outside the coverage area"))
+
+    def test_region_hint_keeps_regional_online_opportunity_qualified(self):
+        schema = {
+            "@type": "Event",
+            "name": "Student Career Workshop",
+            "startDate": "2099-09-01",
+            "description": "An online career workshop for students.",
+            "location": "Online",
+            "url": "https://events.boisestate.edu/workshop",
+        }
+        item = schema_to_opportunity(schema, "https://events.boisestate.edu/", 0.97, "2099-01-01", region_hint="ID")
+        self.assertEqual(item["region"], "ID")
+        self.assertEqual(item["city"], "Online")
+        self.assertEqual(item["format"], "Online")
+        self.assertTrue(qualifies(item, date(2099, 1, 1))[0])
+
+    def test_virtual_markers_outside_location_set_online_format(self):
+        for marker in ("Virtual", "Webinar", "Zoom", "Asynchronous"):
+            with self.subTest(marker=marker):
+                schema = {
+                    "@type": "Event",
+                    "name": f"Seattle Student Career {marker} Workshop",
+                    "startDate": "2099-09-01",
+                    "description": "Career skill building for students.",
+                    "location": "Details supplied after registration",
+                    "url": "https://example.org/event",
+                }
+                item = schema_to_opportunity(schema, "https://example.org/events", 0.97, "2099-01-01", region_hint="WA")
+                self.assertEqual(item["format"], "Online")
+                self.assertEqual(item["city"], "Online")
+
+    def test_missing_city_is_not_replaced_with_state_or_province(self):
+        schema = {
+            "@type": "Event", "name": "Student Career Workshop", "startDate": "2099-09-01",
+            "description": "A hands-on workshop for students.", "location": "Campus room TBA",
+            "url": "https://example.org/event",
+        }
+        item = schema_to_opportunity(schema, "https://example.org/events", 0.97, "2099-01-01", region_hint="BC")
+        self.assertEqual(item["city"], "Location TBD")
+
+    def test_region_and_city_helpers_do_not_confuse_vancouver_bc_with_washington(self):
+        text = "Vancouver, British Columbia, Canada"
+        self.assertEqual(pnw_region(text), "BC")
+        self.assertEqual(city_from(text), "Vancouver")
+
     def test_rejects_calendar_noise_despite_generated_workshop_type(self):
         base = {
             "organizer": "University of Washington",
@@ -119,6 +201,72 @@ class PipelineTests(unittest.TestCase):
         for title in ("Women's Soccer vs. Nevada", "CSS Curriculum Meeting", "Mechanical Engineering Committee Meeting", "New Faculty Onboarding", "New Faculty – Introduction to Canvas", "Internal Funding and RRF Workshop", "Teaching with Canvas: A Refresher Workshop", "2026 Fall MFA Show", "Retro-Rewind Drag Bingo & Trivia", "PERS Retirement Workshop", "Convocation Address and Playfair"):
             with self.subTest(title=title):
                 self.assertEqual(qualifies(base | {"title": title}, date(2099, 1, 1)), (False, "not a relevant student opportunity"))
+
+    def test_rejects_recurring_fitness_and_generic_meditation_classes(self):
+        base = {
+            "organizer": "PNW University Recreation",
+            "description": "Student training and beginner skill building at a Pacific Northwest university.",
+            "venue": "Campus Recreation Center",
+            "city": "Boise",
+            "region": "ID",
+            "eligibility": "Students",
+            "startDate": "2099-09-01",
+            "endDate": "2099-09-01",
+            "format": "In person",
+            "confidence": 0.99,
+            "sourceUrl": "https://events.example.edu/class",
+        }
+        for title in ("Cycle", "HIIT", "Barre", "Power Pilates", "TRX Sculpt", "How to Meditate (online class via Zoom)"):
+            with self.subTest(title=title):
+                self.assertEqual(qualifies(base | {"title": title}, date(2099, 1, 1)), (False, "not a relevant student opportunity"))
+
+    def test_rejects_entertainment_and_staff_only_calendar_events(self):
+        base = {
+            "organizer": "Oregon State University", "description": "A campus fair, workshop, and community event.",
+            "venue": "Corvallis Campus", "city": "Corvallis", "region": "OR", "eligibility": "See official page",
+            "startDate": "2099-09-01", "endDate": "2099-09-01", "format": "In person", "confidence": 0.99,
+            "sourceUrl": "https://events.oregonstate.edu/event/123", "registrationUrl": "https://events.oregonstate.edu/event/123",
+        }
+        for title in ("Movie on the Lawn", "Parent and Family Football Watch Party", "Beavs, Brews & BBQs", "Faculty and Staff Training Workshop"):
+            with self.subTest(title=title):
+                self.assertEqual(qualifies(base | {"title": title}, date(2099, 1, 1)), (False, "not a relevant student opportunity"))
+
+    def test_rejects_events_explicitly_limited_to_employee_roles(self):
+        base = {
+            "title": "Sponsored Research Office Hours", "organizer": "University of Washington",
+            "venue": "Online", "city": "Online", "region": "WA", "eligibility": "See official page",
+            "startDate": "2099-09-01", "endDate": "2099-09-01", "format": "Online", "confidence": 0.99,
+            "sourceUrl": "https://washington.edu/calendar", "registrationUrl": "https://washington.edu/event/1",
+        }
+        descriptions = (
+            "Office hours for faculty and administrators.",
+            "This workshop is open to staff members only.",
+            "Designed for instructors who manage sponsored research.",
+            "Faculty and staff are invited to bring sponsored research questions.",
+        )
+        for description in descriptions:
+            with self.subTest(description=description):
+                self.assertEqual(qualifies(base | {"description": description}, date(2099, 1, 1)), (False, "not a relevant student opportunity"))
+
+    def test_accepts_mixed_employee_and_student_audience(self):
+        item = {
+            "title": "Sponsored Research Office Hours", "organizer": "University of Washington",
+            "description": "Open to faculty, staff, and students who want help with research applications.",
+            "venue": "Online", "city": "Online", "region": "WA", "eligibility": "Faculty, staff, and students",
+            "startDate": "2099-09-01", "endDate": "2099-09-01", "format": "Online", "confidence": 0.99,
+            "sourceUrl": "https://washington.edu/calendar", "registrationUrl": "https://washington.edu/event/1",
+        }
+        self.assertTrue(qualifies(item, date(2099, 1, 1))[0])
+
+    def test_rejects_employee_only_title_even_when_description_discusses_students(self):
+        item = {
+            "title": "Graduate Supervision Workshop for Faculty", "organizer": "University of British Columbia",
+            "description": "Faculty will learn effective ways to supervise graduate students.",
+            "venue": "Online", "city": "Online", "region": "BC", "eligibility": "Faculty",
+            "startDate": "2099-09-01", "endDate": "2099-09-01", "format": "Online", "confidence": 0.99,
+            "sourceUrl": "https://events.ubc.ca", "registrationUrl": "https://events.ubc.ca/event/1",
+        }
+        self.assertEqual(qualifies(item, date(2099, 1, 1)), (False, "not a relevant student opportunity"))
 
     def test_generated_fallback_description_is_not_relevance_evidence(self):
         schema = {
@@ -228,7 +376,7 @@ class PipelineTests(unittest.TestCase):
     def test_seed_data_has_required_fields_and_unique_ids(self):
         data = json.loads((ROOT / "data" / "opportunities.json").read_text(encoding="utf-8"))
         required = {"id","title","organizer","field","type","city","startDate","status","eligibility","sourceUrl","verifiedAt"}
-        self.assertGreaterEqual(len(data), 35)
+        self.assertGreaterEqual(len(data), 450)
         self.assertGreaterEqual(len({item["field"] for item in data}), 8)
         self.assertEqual(len({item["id"] for item in data}), len(data))
         for item in data:
@@ -236,14 +384,16 @@ class PipelineTests(unittest.TestCase):
 
     def test_source_catalog_uses_unique_official_https_endpoints(self):
         sources = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
-        self.assertGreaterEqual(len(sources), 43)
+        self.assertGreaterEqual(len(sources), 60)
+        configured_regions = {source.get("region") for source in sources if source.get("enabled", True)}
+        self.assertTrue({"WA", "OR", "ID", "BC"}.issubset(configured_regions))
         self.assertEqual(len({source["id"] for source in sources}), len(sources))
         self.assertGreaterEqual(sum(bool(source.get("feedUrl") or source.get("feedUrls") or source.get("endpoints")) for source in sources), 4)
         for source in sources:
             self.assertTrue(source["url"].startswith("https://"), source["id"])
             self.assertGreaterEqual(float(source["trust"]), 0.8)
             self.assertLessEqual(float(source["trust"]), 1.0)
-            self.assertIn(source.get("adapter", "auto"), {"auto", "html", "json", "jsonld", "localist", "trumba", "rss", "atom", "xml", "ics", "ical", "icalendar"})
+            self.assertIn(source.get("adapter", "auto"), {"auto", "html", "json", "jsonld", "localist", "trumba", "tribe", "rss", "atom", "xml", "ics", "ical", "icalendar"})
 
     def test_static_builder(self):
         env = dict(os.environ, GITHUB_REPOSITORY="TheAgencyMGE/nextup-pnw")
@@ -254,10 +404,13 @@ class PipelineTests(unittest.TestCase):
         index = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("NextUp PNW", index)
         self.assertIn("TheAgencyMGE/nextup-pnw/issues/new", index)
-        self.assertIn("What’s next around Puget Sound", index)
+        self.assertIn("What’s next across the Pacific Northwest", index)
+        self.assertIn("Washington, Oregon, Idaho, and British Columbia", index)
         self.assertIn('class="opportunity-list"', index)
         self.assertIn('class="opportunity-row"', index)
         self.assertIn('id="reset-filters"', index)
+        self.assertIn('id="region"', index)
+        self.assertIn('data-region="BC"', index)
         self.assertIn("View official listing", index)
         self.assertNotIn('class="hero-panel"', index)
         self.assertNotIn('class="opportunity-grid"', index)
@@ -266,6 +419,15 @@ class PipelineTests(unittest.TestCase):
         detail = (ROOT / "docs" / "opportunities" / first_id / "index.html").read_text(encoding="utf-8")
         self.assertIn("Open official listing", detail)
         self.assertIn('class="detail-facts"', detail)
+        all_items = json.loads((ROOT / "data" / "opportunities.json").read_text(encoding="utf-8"))
+        bc_item = next(item for item in all_items if item.get("region") == "BC" and item.get("format") != "Online")
+        bc_detail = (ROOT / "docs" / "opportunities" / bc_item["id"] / "index.html").read_text(encoding="utf-8")
+        self.assertIn('"addressRegion": "BC"', bc_detail)
+        self.assertIn('"addressCountry": "CA"', bc_detail)
+        online_item = next(item for item in all_items if item.get("format") == "Online")
+        online_detail = (ROOT / "docs" / "opportunities" / online_item["id"] / "index.html").read_text(encoding="utf-8")
+        self.assertIn('"@type": "VirtualLocation"', online_detail)
+        self.assertNotIn('"addressLocality"', online_detail)
         self.assertFalse(stale.exists())
 
 

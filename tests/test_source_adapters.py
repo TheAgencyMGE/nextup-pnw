@@ -1,4 +1,5 @@
 import sys
+import json
 import unittest
 from pathlib import Path
 
@@ -38,6 +39,28 @@ class SourceAdapterTests(unittest.TestCase):
         self.assertEqual(records[0]["endDate"], "2099-08-24T12:00:00")
         self.assertEqual(records[0]["location"], "Online")
         self.assertIn("eventid%3D204112777", records[0]["url"])
+
+    def test_extracts_wordpress_tribe_events(self):
+        payload = json.dumps({
+            "events": [{
+                "title": "UBC Student Research Workshop",
+                "description": "A hands-on research workshop for students.",
+                "start_date": "2099-09-14 10:00:00",
+                "end_date": "2099-09-14 12:00:00",
+                "url": "https://events.ubc.ca/event/research-workshop/",
+                "venue": {"venue": "Koerner Library", "city": "Vancouver", "province": "British Columbia"},
+                "organizer": [{"organizer": "UBC Library"}],
+                "cost": "Free",
+            }]
+        })
+        records = extract_records(payload, "application/json", "https://events.ubc.ca/", adapter="tribe")
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["name"], "UBC Student Research Workshop")
+        self.assertEqual(records[0]["startDate"], "2099-09-14 10:00:00")
+        self.assertEqual(records[0]["location"]["address"]["addressLocality"], "Vancouver")
+        self.assertEqual(records[0]["location"]["address"]["addressRegion"], "British Columbia")
+        self.assertEqual(records[0]["organizer"], {"name": "UBC Library"})
+        self.assertEqual(records[0]["offers"], {"price": "0", "priceCurrency": "CAD"})
 
     def test_extracts_rss_with_namespaced_or_plain_event_fields(self):
         records = extract_records(

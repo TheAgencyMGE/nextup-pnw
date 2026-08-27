@@ -2,7 +2,7 @@
 
 **Stop finding out after it happened.**
 
-NextUp PNW is a verified directory of internships, workshops, competitions, research, conferences, mentorship, and leadership programs that people around the Puget Sound can actually join. It covers medicine and health, law and civic work, business, engineering and science, arts and media, public service, career development, and technology.
+NextUp PNW is a verified directory of internships, workshops, competitions, research, conferences, mentorship, and leadership programs across Washington, Oregon, Idaho, and British Columbia. It covers medicine and health, law and civic work, business, engineering and science, arts and media, public service, career development, and technology.
 
 The service is built as a zero-backend GitHub Pages site. Public browsing requires no account. Scheduled GitHub Actions verify existing listings every day, search monitored sources every Sunday, archive expired opportunities, rebuild the site, and deploy the result.
 
@@ -11,8 +11,8 @@ The service is built as a zero-backend GitHub Pages site. Public browsing requir
 - Mobile-first searchable directory
 - Filters for career field, location, search, and beginner accessibility
 - Individual SEO-friendly event pages with Schema.org `Event` data
-- More than 100 active opportunities across eight career fields after the initial live-source refresh
-- Forty-three monitored regional sources, prioritizing official organizers
+- Roughly 500 active opportunities across eight career fields after the PNW-wide live-source refresh
+- Fifty-three enabled official regional sources, with inaccessible sources retained as disabled entries for maintenance
 - Multi-format discovery from JSON-LD, JSON calendar APIs, RSS/Atom, iCalendar, and structured HTML
 - Conservative automatic publishing based on location, relevance, recency, source confidence, and calendar-noise rejection
 - Duplicate detection and automatic expiration
@@ -23,7 +23,7 @@ The service is built as a zero-backend GitHub Pages site. Public browsing requir
 
 ## Coverage
 
-NextUp PNW prioritizes Bothell, Seattle, Bellevue, Redmond, Everett, Tacoma, Kirkland, Renton, Shoreline, Lynnwood, Woodinville, and the surrounding Puget Sound region.
+NextUp PNW covers Washington, Oregon, Idaho, and British Columbia, including both major metros and university communities. Online listings still need a clear organizer or audience connection to one of those four regions.
 
 ## How updates work
 
@@ -74,7 +74,7 @@ tests/                   Pipeline tests
 
 ## Add or disable a source
 
-Edit `config/sources.json`. Every source has an `enabled` switch, trust score, crawl limit, and official URL. Disabling a source preserves existing listings but stops future discovery from it.
+Edit `config/sources.json`. Every source has an `enabled` switch, trust score, crawl limit, and official URL. The catalog currently contains 65 sources; 53 are enabled and 12 inaccessible or blocked sources are retained as disabled maintenance entries. Disabling a source preserves existing listings but stops future discovery from it.
 
 ## Safety and accuracy
 

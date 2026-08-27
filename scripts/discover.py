@@ -4,10 +4,9 @@ from __future__ import annotations
 
 import argparse
 from datetime import datetime, timezone
-from collections import Counter
 
-from discovery_pipeline import collect_sources, merge_opportunities
-from opportunity_utils import DATA_FILE, ROOT, STATE_FILE, fetch, load_json, qualifies, save_json
+from discovery_pipeline import collect_sources, limit_opportunities, merge_opportunities, retain_existing
+from opportunity_utils import DATA_FILE, ROOT, STATE_FILE, fetch, load_json, save_json
 
 
 def main() -> int:
@@ -16,26 +15,16 @@ def main() -> int:
     args = parser.parse_args()
     sources = load_json(ROOT / "config" / "sources.json", [])
     existing = load_json(DATA_FILE, [])
-    disabled_source_ids = {source["id"] for source in sources if not source.get("enabled", True)}
-    retained_existing = []
-    removed_reasons: Counter[str] = Counter()
-    for item in existing:
-        if item.get("sourceId") in disabled_source_ids:
-            removed_reasons["source disabled"] += 1
-            continue
-        allowed, reason = qualifies(item)
-        if allowed:
-            retained_existing.append(item)
-        else:
-            removed_reasons[reason] += 1
+    retained_existing, removed_reasons = retain_existing(existing, sources)
     discovered = []
     source_results = collect_sources(sources, fetch)
     for result in source_results:
         discovered.extend(result.items)
         print(f"  {result.source_id}: {result.accepted} accepted, {result.rejected} rejected, {len(result.failures)} warnings")
 
-    combined = merge_opportunities(retained_existing, discovered)
+    combined = limit_opportunities(merge_opportunities(retained_existing, discovered))
     failures = [failure | {"source": result.source_id} for result in source_results for failure in result.failures]
+    required_failures = [result.source_id for result in source_results if result.required and result.health == "failed"]
     report = {
         "mode": "discovery",
         "ranAt": datetime.now(timezone.utc).isoformat(),
@@ -48,6 +37,11 @@ def main() -> int:
         "acceptedCount": sum(result.accepted for result in source_results),
         "rejectedCount": sum(result.rejected for result in source_results),
         "failureCount": len(failures),
+        "healthySourceCount": sum(result.health == "healthy" for result in source_results),
+        "degradedSourceCount": sum(result.health == "degraded" for result in source_results),
+        "emptySourceCount": sum(result.health == "empty" for result in source_results),
+        "failedSourceCount": sum(result.health == "failed" for result in source_results),
+        "requiredFailures": required_failures,
         "failures": failures[:25],
         "sources": [result.as_dict() for result in source_results],
     }
@@ -55,7 +49,7 @@ def main() -> int:
         save_json(DATA_FILE, combined)
         save_json(STATE_FILE, report)
     print(f"NextUp PNW discovery: {report['newCount']} new, {report['acceptedCount']} accepted, {report['rejectedCount']} rejected, {len(failures)} source warnings")
-    return 0
+    return 2 if required_failures else 0
 
 
 if __name__ == "__main__":

@@ -9,6 +9,9 @@ type Opportunity = (typeof opportunities)[number];
 const submitUrl = "https://github.com/TheAgencyMGE/nextup-pnw/issues/new?template=submit-opportunity.yml";
 const cities = ["All locations", ...Array.from(new Set(opportunities.map((item) => item.city))).sort()];
 const fields = ["All fields", ...Array.from(new Set(opportunities.map((item) => item.field))).sort()];
+const regionLabels: Record<string, string> = { WA: "Washington", OR: "Oregon", ID: "Idaho", BC: "British Columbia" };
+const regionOf = (item: Opportunity) => ("region" in item && item.region ? item.region : "WA");
+const regions = ["All regions", ...["WA", "OR", "ID", "BC"].filter((value) => opportunities.some((item) => regionOf(item) === value))];
 
 function formatDate(start: string, end: string | null) {
   const first = new Date(`${start}T12:00:00-07:00`);
@@ -56,6 +59,7 @@ function OpportunityRow({ item }: { item: Opportunity }) {
 export default function Home() {
   const [query, setQuery] = useState("");
   const [city, setCity] = useState("All locations");
+  const [region, setRegion] = useState("All regions");
   const [field, setField] = useState("All fields");
   const [beginnerOnly, setBeginnerOnly] = useState(false);
 
@@ -64,16 +68,18 @@ export default function Home() {
     return opportunities
       .filter((item) => item.status !== "closed")
       .filter((item) => city === "All locations" || item.city === city)
+      .filter((item) => region === "All regions" || regionOf(item) === region)
       .filter((item) => field === "All fields" || item.field === field)
       .filter((item) => !beginnerOnly || item.beginnerFriendly)
       .filter((item) => !search || [item.title, item.organizer, item.field, item.city, item.type, item.description, ...item.tags].join(" ").toLowerCase().includes(search))
       .sort((a, b) => a.startDate.localeCompare(b.startDate));
-  }, [query, city, field, beginnerOnly]);
+  }, [query, city, region, field, beginnerOnly]);
 
-  const hasFilters = Boolean(query || city !== "All locations" || field !== "All fields" || beginnerOnly);
+  const hasFilters = Boolean(query || city !== "All locations" || region !== "All regions" || field !== "All fields" || beginnerOnly);
   const resetFilters = () => {
     setQuery("");
     setCity("All locations");
+    setRegion("All regions");
     setField("All fields");
     setBeginnerOnly(false);
   };
@@ -87,14 +93,14 @@ export default function Home() {
 
       <section className="intro" aria-labelledby="intro-title">
         <div>
-          <p className="context-line">Puget Sound · Student opportunity directory</p>
-          <h1 id="intro-title">What’s next around Puget Sound.</h1>
+          <p className="context-line">Washington · Oregon · Idaho · British Columbia</p>
+          <h1 id="intro-title">What’s next across the Pacific Northwest.</h1>
           <p className="intro-copy">Find internships, workshops, career fairs, competitions, research programs, and community events before the date passes. Every result links to its organizer.</p>
           <a className="jump-link" href="#opportunities">Browse opportunities <span aria-hidden="true">↓</span></a>
         </div>
         <aside className="directory-brief" aria-label="Directory summary">
           <p className="brief-count"><strong>{opportunities.length}</strong><span>active listings</span></p>
-          <p>Across {fields.length - 1} fields and {cities.length - 1} Puget Sound locations.</p>
+          <p>Across four PNW regions, {fields.length - 1} fields, and {cities.length - 1} locations.</p>
           <p className="kept-line">Stop finding out after it happened.</p>
         </aside>
       </section>
@@ -103,6 +109,7 @@ export default function Home() {
         <div className="directory-heading"><div><p className="section-index">Directory / Updated weekly</p><h2 id="directory-title">Upcoming opportunities</h2></div><p>Sorted by start date. Use the filters to narrow the list.</p></div>
         <div className="filter-bar" role="search" aria-label="Filter opportunities">
           <label className="search-field"><span>Search</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Title, organizer, or keyword" /></label>
+          <label><span>Region</span><select value={region} onChange={(event) => setRegion(event.target.value)}>{regions.map((value) => <option key={value} value={value}>{value === "All regions" ? value : regionLabels[value]}</option>)}</select></label>
           <label><span>Location</span><select value={city} onChange={(event) => setCity(event.target.value)}>{cities.map((value) => <option key={value}>{value}</option>)}</select></label>
           <label><span>Field</span><select value={field} onChange={(event) => setField(event.target.value)}>{fields.map((value) => <option key={value}>{value}</option>)}</select></label>
           <label className="check-label"><input type="checkbox" checked={beginnerOnly} onChange={(event) => setBeginnerOnly(event.target.checked)} /><span>Beginner-friendly only</span></label>
@@ -123,10 +130,10 @@ export default function Home() {
 
       <section className="submit-section" aria-labelledby="submit-title">
         <div><p className="section-index">Missing something?</p><h2 id="submit-title">Send the organizer’s link.</h2></div>
-        <div><p>Share the official page for a Puget Sound internship, program, competition, workshop, fair, or student event. We’ll check the details before it appears here.</p><a className="submit-link" href={submitUrl} target="_blank" rel="noreferrer">Send an official link <span aria-hidden="true">↗</span></a></div>
+        <div><p>Share the official page for a Pacific Northwest internship, program, competition, workshop, fair, or student event. We’ll check the details before it appears here.</p><a className="submit-link" href={submitUrl} target="_blank" rel="noreferrer">Send an official link <span aria-hidden="true">↗</span></a></div>
       </section>
 
-      <footer><div className="brand footer-brand"><span className="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities around Puget Sound, sorted by what’s next.</p><div><a href="https://github.com/TheAgencyMGE/nextup-pnw" target="_blank" rel="noreferrer">GitHub</a><a href="#method">Method</a><a href={submitUrl} target="_blank" rel="noreferrer">Submit a link</a></div></footer>
+      <footer><div className="brand footer-brand"><span className="brand-mark" aria-hidden="true">N<span>↗</span></span><span>NextUp <em>PNW</em></span></div><p>Student opportunities across the Pacific Northwest, sorted by what’s next.</p><div><a href="https://github.com/TheAgencyMGE/nextup-pnw" target="_blank" rel="noreferrer">GitHub</a><a href="#method">Method</a><a href={submitUrl} target="_blank" rel="noreferrer">Submit a link</a></div></footer>
     </main>
   );
 }

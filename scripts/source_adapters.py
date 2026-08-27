@@ -95,6 +95,53 @@ def _extract_json(body: str, source_url: str) -> list[dict[str, Any]]:
     return output
 
 
+def _extract_tribe(body: str, source_url: str) -> list[dict[str, Any]]:
+    """Extract The Events Calendar (WordPress Tribe REST API) records."""
+    try:
+        document = json.loads(body)
+    except (json.JSONDecodeError, TypeError, ValueError) as exc:
+        raise AdapterError(f"malformed JSON: {exc}") from exc
+    values = document.get("events", []) if isinstance(document, dict) else []
+    output: list[dict[str, Any]] = []
+    for event in values if isinstance(values, list) else []:
+        if not isinstance(event, dict):
+            continue
+        name = clean_text(event.get("title"))
+        start = event.get("start_date") or event.get("startDate")
+        if not name or not start:
+            continue
+        venue = event.get("venue") if isinstance(event.get("venue"), dict) else {}
+        organizers = event.get("organizer") if isinstance(event.get("organizer"), list) else []
+        organizer_name = clean_text(organizers[0].get("organizer")) if organizers and isinstance(organizers[0], dict) else ""
+        cost = clean_text(event.get("cost"))
+        offers: dict[str, Any] = {}
+        if cost.lower() == "free":
+            offers = {"price": "0", "priceCurrency": "CAD"}
+        elif cost:
+            offers = {"price": cost, "priceCurrency": "CAD"}
+        output.append({
+            "@type": "Event",
+            "name": name,
+            "description": clean_text(event.get("description") or event.get("excerpt")),
+            "startDate": start,
+            "endDate": event.get("end_date") or event.get("endDate") or start,
+            "location": {
+                "@type": "Place",
+                "name": clean_text(venue.get("venue")),
+                "address": {
+                    "streetAddress": clean_text(venue.get("address")),
+                    "addressLocality": clean_text(venue.get("city")),
+                    "addressRegion": clean_text(venue.get("province") or venue.get("stateprovince") or venue.get("state")),
+                },
+            },
+            "url": urllib.parse.urljoin(source_url, clean_text(event.get("url"))),
+            "organizer": {"name": organizer_name} if organizer_name else {},
+            "offers": offers,
+            "eventStatus": event.get("status", ""),
+        })
+    return output
+
+
 def _local_name(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].lower()
 
@@ -249,6 +296,8 @@ def extract_records(body: str, content_type: str, source_url: str, adapter: str 
     selected = (adapter or "auto").lower()
     mime = (content_type or "").split(";", 1)[0].lower()
     stripped = body.lstrip()
+    if selected == "tribe":
+        return _extract_tribe(body, source_url)
     if selected in {"json", "localist", "trumba"} or (selected == "auto" and ("json" in mime or stripped.startswith(("{", "[")))):
         return _extract_json(body, source_url)
     if selected in {"rss", "atom", "xml"} or (selected == "auto" and ("xml" in mime or stripped.startswith("<?xml"))):

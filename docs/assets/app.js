@@ -1,6 +1,7 @@
 (() => {
   const search = document.querySelector('#search');
   const city = document.querySelector('#city');
+  const region = document.querySelector('#region');
   const field = document.querySelector('#field');
   const beginner = document.querySelector('#beginner');
   const reset = document.querySelector('#reset-filters');
@@ -11,7 +12,7 @@
   const empty = document.querySelector('#empty-state');
   const list = document.querySelector('#opportunity-list');
 
-  const hasFilters = () => Boolean(search.value.trim() || city.value !== 'All locations' || field.value !== 'All fields' || beginner.checked);
+  const hasFilters = () => Boolean(search.value.trim() || city.value !== 'All locations' || region.value !== 'All regions' || field.value !== 'All fields' || beginner.checked);
 
   const apply = () => {
     const query = search.value.trim().toLowerCase();
@@ -19,6 +20,7 @@
     rows.forEach((row) => {
       const match = (!query || row.dataset.search.includes(query)) &&
         (city.value === 'All locations' || row.dataset.city === city.value) &&
+        (region.value === 'All regions' || row.dataset.region === region.value) &&
         (field.value === 'All fields' || row.dataset.field === field.value) &&
         (!beginner.checked || row.dataset.beginner === 'true');
       row.hidden = !match;
@@ -34,13 +36,14 @@
   const clear = () => {
     search.value = '';
     city.value = 'All locations';
+    region.value = 'All regions';
     field.value = 'All fields';
     beginner.checked = false;
     apply();
     search.focus();
   };
 
-  [search, city, field].forEach((control) => control.addEventListener('input', apply));
+  [search, city, region, field].forEach((control) => control.addEventListener('input', apply));
   beginner.addEventListener('change', apply);
   reset.addEventListener('click', clear);
   emptyReset.addEventListener('click', clear);

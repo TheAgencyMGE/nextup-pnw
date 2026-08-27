@@ -1,10 +1,10 @@
 {
   "mode": "verification",
-  "ranAt": "2026-08-26T14:32:00.260862+00:00",
-  "checkedCount": 106,
-  "activeCount": 109,
-  "archivedCount": 2,
-  "warningCount": 3,
+  "ranAt": "2026-08-27T17:58:21.300727+00:00",
+  "checkedCount": 103,
+  "activeCount": 107,
+  "archivedCount": 4,
+  "warningCount": 4,
   "warnings": [
     {
       "id": "score-tech-pitch-final-2026",
@@ -13,6 +13,10 @@
     {
       "id": "sam-preparing-the-past-2026",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "medical-ai-journal-club-september-2026",
+      "error": "HTTP Error 404: "
     },
     {
       "id": "sam-conservation-stories-2026",

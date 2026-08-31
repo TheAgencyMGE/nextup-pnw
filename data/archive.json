@@ -1013,5 +1013,38 @@
     "confidence": 0.99,
     "sourceId": "boise-state-events",
     "archivedAt": "2026-08-30"
+  },
+  {
+    "id": "my-colorful-emotions-workshop-2026",
+    "title": "My Colorful Emotions Workshop",
+    "organizer": "King County Library System",
+    "field": "Arts & Media",
+    "type": "Workshop",
+    "format": "Online",
+    "city": "Online",
+    "region": "WA",
+    "venue": "Renton, 100 Mill Avenue S, Renton, WA",
+    "startDate": "2026-08-30",
+    "endDate": "2026-08-30",
+    "deadline": null,
+    "status": "closed",
+    "cost": "See official page",
+    "eligibility": "people with disabilities is available by request",
+    "skillLevel": "Not stated",
+    "beginnerFriendly": false,
+    "description": "Ages 5 to 10 with adult.Explore your feelings and learn calm down tools through art, music and games! This workshop is designed to help children explore, express and regulate their emotions. Children will create their own emotions wheel art project and will practice calming strategies to help them manage big emotions. Presented by a certified Creative Arts Therapist and Kids Coach. Sponsored by the Friends of the Renton Library. Registration required, limited space. Reasonable accommodation for people with disabilities is available by request. Email access@kcls.org at least seven days before the event. Automated closed captioning is always available for online events.",
+    "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
+    "sourceUrl": "https://kcls.bibliocommons.com/v2/events",
+    "registrationUrl": "https://kcls.bibliocommons.com/v2/events/69fe29f84134893003f11d5c",
+    "verifiedAt": "2026-08-30",
+    "tags": [
+      "arts & media",
+      "online",
+      "wa",
+      "workshop"
+    ],
+    "confidence": 0.99,
+    "sourceId": "king-county-library-events",
+    "archivedAt": "2026-08-31"
   }
 ]

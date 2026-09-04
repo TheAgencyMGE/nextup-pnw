@@ -1,10 +1,10 @@
 {
   "mode": "verification",
-  "ranAt": "2026-09-03T17:57:48.517973+00:00",
-  "checkedCount": 469,
-  "activeCount": 471,
-  "archivedCount": 60,
-  "warningCount": 2,
+  "ranAt": "2026-09-04T17:42:10.734129+00:00",
+  "checkedCount": 451,
+  "activeCount": 454,
+  "archivedCount": 77,
+  "warningCount": 3,
   "warnings": [
     {
       "id": "score-tech-pitch-final-2026",
@@ -13,6 +13,10 @@
     {
       "id": "sam-preparing-the-past-2026",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "learn-video-interviews-using-a-camcorder-2026-1021",
+      "error": "HTTP Error 502: Bad Gateway"
     }
   ]
 }

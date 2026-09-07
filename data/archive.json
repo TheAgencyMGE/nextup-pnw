@@ -2761,5 +2761,38 @@
     "confidence": 0.99,
     "sourceId": "seattle-u-events",
     "archivedAt": "2026-09-06"
+  },
+  {
+    "id": "graduate-instructional-skills-workshop-september-6-12-13-2026-sun-sat--2026",
+    "title": "Graduate Instructional Skills Workshop – September 6, 12, 13, 2026 (Sun., Sat., Sun.)",
+    "organizer": "Centre for Teaching, Learning and Technology",
+    "field": "Arts & Media",
+    "type": "Workshop",
+    "format": "In person",
+    "city": "Vancouver",
+    "region": "BC",
+    "venue": "Irving K. Barber Learning Centre, 1961 East Mall, Vancouver, British Columbia",
+    "startDate": "2026-09-06",
+    "endDate": "2026-09-06",
+    "deadline": null,
+    "status": "closed",
+    "cost": "See official page",
+    "eligibility": "See the official page for eligibility",
+    "skillLevel": "Not stated",
+    "beginnerFriendly": false,
+    "description": "Workshop Overview This workshop consists of teaching practice, theory application, and topical sessions specifically relevant to Teaching Assistants and Graduate Students at UBC. During the workshop you will teach 3 short lessons and receive feedback from your peers. You will work closely with peers and trained facilitators (who are themselves UBC graduate students). In this supportive atmosphere you will have a chance to begin to develop new teaching skills, to enhance existing skills, and/or to try new and challenging ideas. Workshop Eligibility A participant who wishes to apply to the Grad ISW is eligible if they are: a full-time or part-time registered graduate student at UBC during the ",
+    "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
+    "sourceUrl": "https://events.ubc.ca/",
+    "registrationUrl": "https://events.ubc.ca/event/graduate-instructional-skills-workshop-september-6-12-13-2026-sun-sat-sun__trashed/2026-09-06/",
+    "verifiedAt": "2026-09-06",
+    "tags": [
+      "arts & media",
+      "bc",
+      "vancouver",
+      "workshop"
+    ],
+    "confidence": 0.99,
+    "sourceId": "ubc-vancouver-events",
+    "archivedAt": "2026-09-07"
   }
 ]

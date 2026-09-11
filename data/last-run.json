@@ -1,9 +1,9 @@
 {
   "mode": "verification",
-  "ranAt": "2026-09-10T17:49:54.878820+00:00",
-  "checkedCount": 468,
-  "activeCount": 470,
-  "archivedCount": 114,
+  "ranAt": "2026-09-11T17:51:07.211071+00:00",
+  "checkedCount": 453,
+  "activeCount": 455,
+  "archivedCount": 129,
   "warningCount": 2,
   "warnings": [
     {

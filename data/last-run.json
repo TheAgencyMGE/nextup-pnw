@@ -1,9 +1,14 @@
 {
   "mode": "verification",
-  "ranAt": "2026-09-21T19:33:30.616861+00:00",
-  "checkedCount": 492,
-  "activeCount": 492,
-  "archivedCount": 247,
-  "warningCount": 0,
-  "warnings": []
+  "ranAt": "2026-09-22T18:11:33.438658+00:00",
+  "checkedCount": 478,
+  "activeCount": 479,
+  "archivedCount": 260,
+  "warningCount": 1,
+  "warnings": [
+    {
+      "id": "college-of-forestry-annual-ring-2026",
+      "error": "HTTP Error 504: Gateway Time-out"
+    }
+  ]
 }

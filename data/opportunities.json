@@ -21,7 +21,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-cognitive-behavioural-therapy-cbt-skills-physician-wellness-group-training-cohort-b/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -53,7 +53,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/1st-annual-privacy-matters-ubc-capture-the-flag-competition/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "competition",
@@ -84,7 +84,7 @@
     "whyItStandsOut": "It gives nonbusiness graduate students a structured entrepreneurship credential alongside their main degree.",
     "sourceUrl": "https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/entrepreneurship-certificate/",
     "registrationUrl": "https://foster.uw.edu/centers/buerk-ctr-entrepreneurship/entrepreneurship-certificate/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "certificate",
       "graduate students",
@@ -116,7 +116,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-cognitive-behavioural-therapy-cbt-skills-physician-wellness-group-training-cohort-c/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -148,7 +148,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D206805038",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "hackathon",
@@ -157,70 +157,6 @@
     ],
     "confidence": 0.99,
     "sourceId": "uw-campus-calendar"
-  },
-  {
-    "id": "diwali-jharokha-workshop-an-ornate-wooden-t-light-holder-2026",
-    "title": "Diwali Jharokha Workshop: An Ornate Wooden T-light Holder",
-    "organizer": "King County Library System",
-    "field": "Arts & Media",
-    "type": "Workshop",
-    "format": "In person",
-    "city": "Bellevue",
-    "region": "WA",
-    "venue": "Crossroads Community Center, 16000 Northeast 10th Street, Bellevue, WA",
-    "startDate": "2026-10-18",
-    "endDate": "2026-10-18",
-    "deadline": null,
-    "status": "open",
-    "cost": "See official page",
-    "eligibility": "All ages are welcome",
-    "skillLevel": "Not stated",
-    "beginnerFriendly": false,
-    "description": "Create and decorate a beautiful wooden Jharokha-style T-light candle holder inspired by the ornate windows of traditional Indian palaces and havelis. In Indian culture, the jharokha symbolizes beauty, heritage, and connection, making it a timeless architectural element. All ages are welcome. Children must be accompanied by an adult. Registration is encouraged. Location: Crossroads Community Center, 16000 NE 10th St, Bellevue, WA 98008Hosted by Deepti Designs Inc.",
-    "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
-    "sourceUrl": "https://kcls.bibliocommons.com/v2/events",
-    "registrationUrl": "https://kcls.bibliocommons.com/v2/events/6a46e2a7c52cdc3600ee781b",
-    "verifiedAt": "2026-10-18",
-    "tags": [
-      "arts & media",
-      "bellevue",
-      "wa",
-      "workshop"
-    ],
-    "confidence": 0.99,
-    "sourceId": "king-county-library-events"
-  },
-  {
-    "id": "grove-community-garden-work-party-2026-1018",
-    "title": "Grove Community Garden Work Party",
-    "organizer": "University of Oregon Events",
-    "field": "Arts & Media",
-    "type": "Volunteer program",
-    "format": "In person",
-    "city": "Eugene",
-    "region": "OR",
-    "venue": "Grove Community Garden, Lafayette, LA",
-    "startDate": "2026-10-18",
-    "endDate": "2026-10-18",
-    "deadline": null,
-    "status": "announced",
-    "cost": "See official page",
-    "eligibility": "the space",
-    "skillLevel": "Not stated",
-    "beginnerFriendly": false,
-    "description": "Volunteer at UO's only student-led community garden. Nearly every Sunday from 2-4 pm at the Grove Community Garden (just behind Global Scholars Hall). Work parties are when we come together to collectively care for the space. We have raised beds and other planting areas that are managed by the overall community to produce food (mainly vegetables) for the student food pantry, the SSC Produce Drop, Eugene Food Not Bombs, and of course (and often primarily) those who come each week to volunteer. So, a typical work party may include harvesting food, weeding beds, sowing seeds/transplanting starts, chipping a wood path, etc. There is no signup ahead of time, the only prep beforehand is dressing f",
-    "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
-    "sourceUrl": "https://calendar.uoregon.edu/",
-    "registrationUrl": "https://calendar.uoregon.edu/event/grove-community-garden-workparty",
-    "verifiedAt": "2026-10-18",
-    "tags": [
-      "arts & media",
-      "eugene",
-      "or",
-      "volunteer program"
-    ],
-    "confidence": 0.99,
-    "sourceId": "university-oregon-events"
   },
   {
     "id": "beav-eats-bnc-weekly-food-and-cooking-workshop-2026-1019",
@@ -244,7 +180,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/beav-eats-bnc-weekly-food-and-cooking-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -276,7 +212,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://ecampus.oregonstate.edu/students/current/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -308,7 +244,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.wsu.edu/",
     "registrationUrl": "https://events.wsu.edu/type/careers-jobs/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -340,7 +276,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/course-based-programs-application-week-at-ubc-graduate-and-postdoctoral-studies/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -372,7 +308,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/events/2019543",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "internship",
@@ -404,7 +340,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/dissertation-defense-yumi-ohashi",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -436,7 +372,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -468,7 +404,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/eoa.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -500,7 +436,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/employer-led-workshop-tesla-motors/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -532,7 +468,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/fccs-visiting-artist-series-2/2026-10-19/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -564,7 +500,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/api/2/career.uoregon.edu/events",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -596,7 +532,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/events/2020829",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -628,7 +564,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/indigenous-strategic-initiatives-fund-information-sessions-2/2026-10-19/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -660,7 +596,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/edu/events/2012298",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "corvallis",
@@ -692,7 +628,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://ib.oregonstate.edu/integrative-biology-news-events/seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -724,7 +660,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-python-7234",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -756,7 +692,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/job-shadow-day-info-session-8091",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -788,7 +724,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://tinyurl.com/LEI-Apply",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "internship",
@@ -820,7 +756,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266288",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -852,7 +788,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266357",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -884,7 +820,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425850",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -916,7 +852,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/mfa-in-arts-leadership-virtual-information-session-1957",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -948,7 +884,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/ilab/marine-prototyping-microcredential-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -980,7 +916,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/docs.google.com/forms/d/1un5ARbtS6LTvUJ9Tfyc3iyxY1W7u7qocAH_buYdWITM/viewform?edit_requested=true",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -1012,7 +948,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://success.oregonstate.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -1044,7 +980,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/NIMI",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -1076,7 +1012,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://writingcenter.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -1108,7 +1044,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D207730698",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "career & research",
@@ -1140,7 +1076,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/resume-drop-in-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "internship",
@@ -1172,7 +1108,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/events/2036294/share_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "internship",
       "law & civic",
@@ -1204,7 +1140,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -1236,7 +1172,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204113082",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -1268,7 +1204,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/thesis-defense-colin-martin",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "id",
@@ -1300,7 +1236,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-family-practice-anesthesia-journal-club-2026/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "journal club",
@@ -1332,7 +1268,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-perineal-repair-workshop-for-midwives-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -1364,7 +1300,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D208760048",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "tacoma",
@@ -1396,7 +1332,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D209748745",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -1428,7 +1364,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D204281659",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -1460,7 +1396,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregonama.wixsite.com/2025",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -1492,7 +1428,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/beta-alpha-psi-meet-the-firms-2026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "internship",
@@ -1524,7 +1460,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/black-student-researchers-info-session-2027__trashed/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -1556,7 +1492,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://law.seattleu.edu/academics/degree-programs/master-of-laws-llm/build-your-legal-career-across-borders/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "law & civic",
       "seattle",
@@ -1588,7 +1524,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D207239654",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bothell",
@@ -1620,7 +1556,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210845149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "law & civic",
       "seattle",
@@ -1652,7 +1588,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/chspr-cae-seminar-canary-in-the-coal-mine-lessons-from-canada-on-long-stay-patients/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -1684,7 +1620,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "http://bit.ly/EECSWebWed",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -1716,7 +1652,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/career-exploration-series-art-enablers/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -1748,7 +1684,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210316067",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "tacoma",
@@ -1780,7 +1716,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/cybersecurity-awareness-month-ubco/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -1812,7 +1748,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/cape.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -1844,7 +1780,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/deloitte-consulting-governmentpublic-services-info-session",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "internship",
       "law & civic",
@@ -1876,7 +1812,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/dissertation-defence-biosynthesis-of-spirooxindole-alkaloids/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -1908,7 +1844,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/computing/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -1940,7 +1876,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/dissertation-defense-felix-white",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -1972,7 +1908,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/computing/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -2004,7 +1940,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -2036,7 +1972,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/api/2/career.uoregon.edu/events",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -2068,7 +2004,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -2100,7 +2036,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D206608869",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "seattle",
@@ -2132,7 +2068,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/introduction-to-photography-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -2164,7 +2100,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-r-5006",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -2196,7 +2132,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266368",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -2228,7 +2164,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-box-session-1/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -2260,7 +2196,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266393",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -2292,7 +2228,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-springboard-dive-at-h2o/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -2324,7 +2260,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209430025",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -2356,7 +2292,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learning-r-iterating-over-data-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -2388,7 +2324,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/ilab/marine-prototyping-microcredential-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -2420,7 +2356,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://maco.oregonstate.edu/students-0/student-resources/peer-advising",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -2452,7 +2388,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://success.oregonstate.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -2484,7 +2420,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/osu-cascades-benefits-fair",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bend",
       "medicine & health",
@@ -2516,7 +2452,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/ceoas.oregonstate.edu/ocean-climate-seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -2548,7 +2484,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/online-masters-in-cybersecurity-leadership-information-session-9422",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "online",
@@ -2580,7 +2516,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/oregon-founders-club-social",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -2612,7 +2548,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://beav.es/PCPrep/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "leadership & service",
@@ -2644,7 +2580,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/print-lab-workshop-papermaking",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -2676,7 +2612,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://extension.oregonstate.edu/farm-ranch-stress-assistance-network",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -2708,7 +2644,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/recruiting-session-with-sap-canada-explore-career-opportunities/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -2740,7 +2676,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/recruiting-and-supporting-indigenous-students-into-ubcs-health-career-programs-honouring-the-journey-inspiring-the-future/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -2772,7 +2708,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/recruiting-session-with-remarcable/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "business & entrepreneurship",
@@ -2804,7 +2740,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/resume-drop-in-hours-7530",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "internship",
@@ -2836,7 +2772,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/copy-of-sports-play-by-play-john-strong-in-conversation-with-joey-mcmurry",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -2868,7 +2804,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D208777401",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "seattle",
@@ -2900,7 +2836,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/study-and-stay-level-4-express-entry-points-comprehensive-ranking-system-crs-26/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -2932,7 +2868,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -2964,7 +2900,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204113083",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -2996,7 +2932,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/thesis-defense-peter-micah",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "boise",
@@ -3028,7 +2964,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/tuesday-weekly-writing-community-5/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -3060,7 +2996,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-midwifery-documentation-workshop-online__trashed/2026-10-20/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -3092,7 +3028,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/ubco-community-market-6-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "business & entrepreneurship",
@@ -3124,7 +3060,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/undergraduate-student-researchers-info-session-2027-domestic-students/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -3156,7 +3092,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/edu/events/2012326",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "corvallis",
@@ -3188,7 +3124,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209422045",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "law & civic",
       "online",
@@ -3220,7 +3156,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.broncoshop.com/grad_fair.asp",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -3252,7 +3188,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/events/2016522",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "law & civic",
@@ -3284,7 +3220,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/3-mistakes-masters-students-make-on-linkedin",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -3316,7 +3252,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://writingcenter.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "or",
@@ -3348,7 +3284,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/advertising-portfolio-office-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -3380,7 +3316,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://beav.es/o5q",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -3412,7 +3348,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://app.joinhandshake.com/career_fairs/9fe340c0-3cae-4dbc-abf0-f4eb1615aa48/student_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "career fair",
@@ -3444,7 +3380,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/career-exploration-reflection-and-clarification-4/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "business & entrepreneurship",
@@ -3476,7 +3412,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/career-job-and-internship-fair-762",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "ashland",
       "career & research",
@@ -3508,7 +3444,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://careers.business.oregonstate.edu/events/2026/10/21/college-of-business-fall-career-fair-in-person-oct-21-2026/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "corvallis",
@@ -3540,7 +3476,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/college-of-science-engineering-virtual-information-session",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "engineering & science",
@@ -3572,7 +3508,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/community-cooking-classes-3/2026-10-21/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -3604,7 +3540,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D208768988",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -3636,7 +3572,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/data-bites-creating-a-data-dictionary-for-research-projects-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -3668,7 +3604,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/edu/events/2016136",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -3700,7 +3636,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/employer-on-campus-canadian-armed-forces/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -3732,7 +3668,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/engagement.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "online",
@@ -3764,7 +3700,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/api/2/career.uoregon.edu/events",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -3796,7 +3732,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/fuel-your-future-breakfast",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "ashland",
       "career & research",
@@ -3828,7 +3764,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/geo-budgeting-abroad-workshop-2704",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -3860,7 +3796,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-21/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -3892,7 +3828,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/going-beyond-subject-matter-how-to-identify-skills-employers-want",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -3924,7 +3860,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210233031",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -3956,7 +3892,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D181783504",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -3988,7 +3924,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/events/2020811",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -4020,7 +3956,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/introduction-to-machine-learning-neural-networks-4/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -4052,7 +3988,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-python-7234",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -4084,7 +4020,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/kickball-tournament",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "location tbd",
@@ -4116,7 +4052,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=400677",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career & research",
@@ -4148,7 +4084,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/landscape-urbanism-for-climate-change-in-the-canary-islands-information-session",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "law & civic",
@@ -4180,7 +4116,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266416",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -4212,7 +4148,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-springboard-dive-at-ymca/2026-10-21/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -4244,7 +4180,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425851",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -4276,7 +4212,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/ilab/marine-prototyping-microcredential-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -4308,7 +4244,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://maco.oregonstate.edu/students-0/student-resources/peer-advising",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -4340,7 +4276,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D211234106",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "engineering & science",
@@ -4372,7 +4308,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/naloxone-training-8/2026-10-21/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -4404,7 +4340,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://success.oregonstate.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -4436,7 +4372,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.zoom.us/j/93073357463",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -4468,7 +4404,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D206231365",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "online",
@@ -4500,7 +4436,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/school-counseling-programs-virtual-information-session-836",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -4532,7 +4468,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/student-directed-seminars-information-sessions/2026-10-21/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -4564,7 +4500,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -4596,7 +4532,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/teacher-education-programs-virtual-information-session-5152",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -4628,7 +4564,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204113084",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -4660,7 +4596,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/tfcw/current-events/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -4692,7 +4628,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://tours.mba.com/event/latinamerica/summary",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "business & entrepreneurship",
@@ -4724,7 +4660,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209689532",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "tacoma",
@@ -4756,7 +4692,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/thesis-defense-amber-hawley",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -4788,7 +4724,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D204019537",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "internship",
@@ -4820,7 +4756,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210616820",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "internship",
@@ -4852,7 +4788,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.zoom.us/webinar/register/WN_AlExefJ4Q_-ZJch3_mClvA",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -4884,7 +4820,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.broncoshop.com/grad_fair.asp",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -4916,7 +4852,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/writing-for-graduate-success-common-academic-expressions-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -4948,7 +4884,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/accessibility-office-hours-327",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -4980,7 +4916,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/alumni-office-hours-with-lovelyn-charles-senior-scientist-clinical-research-emergent-biosolutions-from-ebola-to-ai-building-a-career-that-bends-without-breaking/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -5012,7 +4948,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://bpp.oregonstate.edu/bpp/about/seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -5044,7 +4980,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/bench-to-industry-hiring-manager-insights-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -5076,7 +5012,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/beta-alpha-psi-weekly-meeting-4346",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -5108,7 +5044,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://mohr.uoregon.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -5140,7 +5076,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/black-student-researchers-info-session-2027__trashed/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -5172,7 +5108,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/edu/events/2038797",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "corvallis",
@@ -5204,7 +5140,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210700980",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "seattle",
@@ -5236,7 +5172,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/business-connections-series-ob-hr-leadership/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -5268,7 +5204,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/cas-celebrates-transfer-students-cocoa-cedar-and-career-tips",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -5300,7 +5236,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/chc-study-abroad-w-global-education-oregon",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -5332,7 +5268,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/college-of-engineering-career-fair-1425",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career fair",
@@ -5364,7 +5300,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/community-cooking-classes-3-6/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -5396,7 +5332,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/dissertation-defense-rezvan-joshaghani-7063",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -5428,7 +5364,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D207558884",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -5460,7 +5396,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/employer-on-campus-government-of-canada-6/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "law & civic",
@@ -5492,7 +5428,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/employer-on-campus-planar-motor-inc/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -5524,7 +5460,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://recsports.oregonstate.edu/fitness-wellness/fitness-wellness-education/empower-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "corvallis",
@@ -5556,7 +5492,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210176139",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "seattle",
@@ -5588,7 +5524,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/evening-with-equal-justice-2026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "law & civic",
       "seattle",
@@ -5620,7 +5556,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/career_fairs/67501",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "internship",
@@ -5652,7 +5588,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/edu/events/2019545",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -5684,7 +5620,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/api/2/career.uoregon.edu/events",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "eugene",
@@ -5716,7 +5652,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/family-business-exchange-seminar-premier-media-group",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -5748,7 +5684,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/film-club-presents-horror-short-contest-rule-announcement",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "location tbd",
@@ -5780,7 +5716,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/foundations-of-pedagogy-september-november-2026__trashed/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "arts & media",
@@ -5812,7 +5748,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.joinhandshake.com/events/1983126/share_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -5844,7 +5780,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -5876,7 +5812,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/pastseminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -5908,7 +5844,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D189395497",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -5940,7 +5876,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://cllas.uoregon.edu/uo-to-host-symposium-on-building-a-latinx-thriving-institution/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -5972,7 +5908,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ires-seminar-series/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -6004,7 +5940,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/ibec-weekly-meeting",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "business & entrepreneurship",
@@ -6036,7 +5972,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/library-workshops",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "online",
@@ -6068,7 +6004,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-r-5006",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -6100,7 +6036,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate-idea.terradotta.com/_portal/tds-program-brochure?programid=10845",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -6132,7 +6068,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://www.instagram.com/osu.activities.team?stkn=MTB1dXcwMjc3M2N5Mg%3D%3D&utm_source=qr",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -6164,7 +6100,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=400003",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career & research",
@@ -6196,7 +6132,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/knowledge-synthesis-workshop-series-part-4-methods-research-tools-management/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -6228,7 +6164,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210845151",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "law & civic",
       "seattle",
@@ -6260,7 +6196,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266446",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -6292,7 +6228,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-play-squash-6/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -6324,7 +6260,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209430026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -6356,7 +6292,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learning-r-conditions-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -6388,7 +6324,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/murdock-swanson-public-lecture-with-chris-whidbey",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "research",
@@ -6420,7 +6356,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/macj-20",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -6452,7 +6388,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698415",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -6484,7 +6420,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/ilab/marine-prototyping-microcredential-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -6516,7 +6452,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/naloxone-training-9/2026-10-22/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -6548,7 +6484,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://success.oregonstate.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -6580,7 +6516,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://netimpactuo.squarespace.com/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "conference",
@@ -6612,7 +6548,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/newman-fellowship",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "fellowship",
@@ -6644,7 +6580,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/night-at-the-museum-9191",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "corvallis",
@@ -6676,7 +6612,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D205203019",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "seattle",
@@ -6708,7 +6644,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D188106058",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -6740,7 +6676,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/radiant-nuclear-virtual-info-session-hosted-by-ans-hiring",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "medicine & health",
@@ -6772,7 +6708,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209155915",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "online",
@@ -6804,7 +6740,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/spring-study-abroad-programs-in-london-info-session",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -6836,7 +6772,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D208494332",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bothell",
@@ -6868,7 +6804,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/supporting-classroom-climate-with-place-based-resources/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -6900,7 +6836,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -6932,7 +6868,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204113085",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -6964,7 +6900,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/thesis-defence-alarm-prediction-for-manufacturing-process-automation-using-similarity-based-scenario-matching/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -6996,7 +6932,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -7028,7 +6964,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D204019543",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "internship",
@@ -7060,7 +6996,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210616864",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "internship",
@@ -7092,7 +7028,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://beav.es/o5q",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -7124,7 +7060,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://advanced.oregonstate.edu/register/Oct22",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "online",
@@ -7156,7 +7092,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/webmapping-part-1-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -7188,7 +7124,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D207298964",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bothell",
@@ -7220,7 +7156,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://bendbeavscentral.osucascades.edu/rsvp?id=2136981",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -7252,7 +7188,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D207239806",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "internship",
@@ -7284,7 +7220,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210331130",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -7316,7 +7252,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://www.instagram.com/kapi.oregon?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "law & civic",
@@ -7348,7 +7284,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://craftcenter.uoregon.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -7380,7 +7316,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/dissertation-defense-joy-morin",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -7412,7 +7348,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/dissertation-defense-noah-souza",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -7444,7 +7380,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.sou.edu/",
     "registrationUrl": "https://events.sou.edu/event/friday-science-seminar-wormedelics",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "ashland",
       "engineering & science",
@@ -7476,7 +7412,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D208744391",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -7508,7 +7444,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D207655695",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -7540,7 +7476,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://cllas.uoregon.edu/uo-to-host-symposium-on-building-a-latinx-thriving-institution/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -7572,7 +7508,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/ignite-childrens-environmental-health-research-seminar-keep-kids-safe-from-lead",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -7604,7 +7540,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://bit.ly/EECSWebWed",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -7636,7 +7572,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210164578",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "career & research",
@@ -7668,7 +7604,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/information-session-on-canadian-legal-accreditation-for-law-students-graduates-and-legal-professionals-based-in-india/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "law & civic",
@@ -7700,7 +7636,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/learn-by-doing-craft-community",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "corvallis",
@@ -7732,7 +7668,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425852",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -7764,7 +7700,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/lundquist-college-grad-virtual-preview-day-eugene",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "online",
@@ -7796,7 +7732,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698416",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -7828,7 +7764,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/ilab/marine-prototyping-microcredential-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -7860,7 +7796,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://liberalarts.oregonstate.edu/sps/contemplative-studies/marigold/events/mindfulness-medicine",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -7892,7 +7828,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://success.oregonstate.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -7924,7 +7860,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/overview-of-nsfs-new-core-research-program-funding-opportunities-6112",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -7956,7 +7892,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D211322260",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -7988,7 +7924,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://business.uoregon.edu/hands-on-learning/professional-edge",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -8020,7 +7956,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/rally-cars-on-the-quad",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "leadership & service",
@@ -8052,7 +7988,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D208973233",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "engineering & science",
@@ -8084,7 +8020,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/school-of-public-policy-seminar-series-fall-2026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "law & civic",
@@ -8116,7 +8052,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397149",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -8148,7 +8084,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204113086",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -8180,7 +8116,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/thesis-defence-development-of-an-electrified-penile-implant-with-wireless-control-for-enhanced-user-experience/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -8212,7 +8148,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/thesis-defence-integration-of-conducting-polymer-films-with-planar-microwave-resonators-for-concurrent-radio-frequency-and-direct-current-environmental-sensing/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -8244,7 +8180,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/thesis-defense-elizabeth-jessmore",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "business & entrepreneurship",
@@ -8276,7 +8212,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/thesis-defense-shreya-mul",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -8308,7 +8244,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -8340,7 +8276,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/writing-the-literature-review-7/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -8372,7 +8308,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://holden.uoregon.edu/days-service",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -8404,7 +8340,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/pecl-peer-educator-conference",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "leadership & service",
@@ -8436,7 +8372,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/pnw-arts-and-tech-symposium-7819",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "seattle",
@@ -8468,7 +8404,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "http://www.imleagues.com/spa/intramural/f68be0657e2047dc89b8877bb233effa/home",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -8500,7 +8436,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://myrec.boisestate.edu/Program/GetProgramDetails?courseId=d0668a75-922f-4761-8352-4eb347358242",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career & research",
@@ -8532,7 +8468,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/grove-community-garden-workparty",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -8564,7 +8500,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/lxd",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -8596,7 +8532,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/pnw-arts-and-tech-symposium-7819",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "seattle",
@@ -8628,7 +8564,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/beav-eats-bnc-weekly-food-and-cooking-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -8660,7 +8596,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209517577",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "research",
@@ -8692,7 +8628,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/chc-applying-to-law-school-info-session-1899",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "eugene",
@@ -8724,7 +8660,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D206608901",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -8756,7 +8692,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -8788,7 +8724,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/eoa.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -8820,7 +8756,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/fccs-visiting-artist-series-2/2026-10-26/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -8852,7 +8788,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/kara-yedinak-seminar",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -8884,7 +8820,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-26/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -8916,7 +8852,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D205889734",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -8948,7 +8884,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://ib.oregonstate.edu/integrative-biology-news-events/seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -8980,7 +8916,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-python-7234",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -9012,7 +8948,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211400487",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -9044,7 +8980,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266464",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -9076,7 +9012,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425853",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9108,7 +9044,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/m-a-and-m-ed-in-special-education-info-session-focusing-on-blindness-and-low-vision-concentration/2026-10-26/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "arts & media",
@@ -9140,7 +9076,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698417",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -9172,7 +9108,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/docs.google.com/forms/d/1un5ARbtS6LTvUJ9Tfyc3iyxY1W7u7qocAH_buYdWITM/viewform?edit_requested=true",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -9204,7 +9140,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/open-ubc-working-group-4/2026-10-26/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -9236,7 +9172,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D207730695",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "career & research",
@@ -9268,7 +9204,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209767218",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -9300,7 +9236,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://financialaid.uoregon.edu/financial-wellness",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "eugene",
@@ -9332,7 +9268,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -9364,7 +9300,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/thesis-defence-toward-a-mechanical-fast-fourier-transform/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -9396,7 +9332,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/tools-for-designing-interactive-courses-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -9428,7 +9364,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D208760049",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "tacoma",
@@ -9460,7 +9396,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/writing-your-tlef-oer-fund-evaluation-section-tlef-oer-fund-application-preparation-and-consultation-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -9492,7 +9428,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D204281661",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9524,7 +9460,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregonama.wixsite.com/2025",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -9556,7 +9492,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/applying-anti-racist-pedagogies-in-the-classroom__trashed/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -9588,7 +9524,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210096778",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "online",
@@ -9620,7 +9556,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/black-student-researchers-info-session-2027__trashed/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -9652,7 +9588,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/calabaza-painting-competition",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "competition",
@@ -9684,7 +9620,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://ecampus.oregonstate.edu/students/current/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9716,7 +9652,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9748,7 +9684,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211158014",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -9780,7 +9716,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210188244",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9812,7 +9748,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210571692",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -9844,7 +9780,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209748759",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "online",
@@ -9876,7 +9812,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210923279",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "tacoma",
@@ -9908,7 +9844,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -9940,7 +9876,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/honors-college-fall-faculty-research-showcase",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -9972,7 +9908,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209940455",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "seattle",
@@ -10004,7 +9940,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/introduction-to-git-and-github-part-2-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -10036,7 +9972,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-r-5006",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -10068,7 +10004,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266479",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -10100,7 +10036,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-box-session-1/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -10132,7 +10068,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266491",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -10164,7 +10100,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-springboard-dive-at-h2o/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -10196,7 +10132,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209430027",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -10228,7 +10164,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/lundquist-graduate-programs-empowering-international-students-102726",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "business & entrepreneurship",
@@ -10260,7 +10196,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698418",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -10292,7 +10228,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/music-industry-talk-gary-tackett-and-guests-Fall-2026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -10324,7 +10260,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://maco.oregonstate.edu/students-0/student-resources/peer-advising",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -10356,7 +10292,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/respiratorycare/msrc/info/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "engineering & science",
@@ -10388,7 +10324,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/ceoas.oregonstate.edu/ocean-climate-seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -10420,7 +10356,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D204019617",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "internship",
@@ -10452,7 +10388,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://writingcenter.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "arts & media",
@@ -10484,7 +10420,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/pizza-proposals-with-the-indigenous-strategic-initiatives-fund/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -10516,7 +10452,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210767027",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "tacoma",
@@ -10548,7 +10484,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/statistics-and-data-science-alumni-career-panel-4159",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "online",
@@ -10580,7 +10516,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/study-and-stay-level-4-express-entry-points-comprehensive-ranking-system-crs-26/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -10612,7 +10548,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -10644,7 +10580,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/thesis-defence-diaphragm-blood-flow-responses-to-resisted-breathing-and-mechanical-ventilation-in-healthy-adults/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -10676,7 +10612,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/tuesday-weekly-writing-community-5/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -10708,7 +10644,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-cognitive-behavioural-therapy-cbt-skills-physician-wellness-group-training-cohort-d/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -10740,7 +10676,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-midwifery-documentation-workshop-online__trashed/2026-10-27/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -10772,7 +10708,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D208460395",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "tacoma",
@@ -10804,7 +10740,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://www.wrfi.net/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -10836,7 +10772,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/women-trailblazers-across-disciplines",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "seattle",
@@ -10868,7 +10804,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/9th-annual-privacy-matters-ubc-symposium/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -10900,7 +10836,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/advertising-portfolio-office-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -10932,7 +10868,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/applying-anti-racist-pedagogies-in-the-classroom__trashed/2026-10-28/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -10964,7 +10900,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/applying-to-graduate-school-at-ubc-okanagan-5/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -10996,7 +10932,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210866102",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -11028,7 +10964,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/career-exploration-intentional-exploration-4/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -11060,7 +10996,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/college-of-education-study-abroad-info-session",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "eugene",
@@ -11092,7 +11028,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/community-cooking-classes-3/2026-10-28/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -11124,7 +11060,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211241744",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -11156,7 +11092,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/data-bites-licensing-your-research-data-3/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -11188,7 +11124,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/employer-on-campus-citi-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -11220,7 +11156,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/from-debate-to-dialogue-student-voices-on-ai-in-education-8792",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -11252,7 +11188,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/library-workshops",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -11284,7 +11220,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D208468976",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "internship",
@@ -11316,7 +11252,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D181783505",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -11348,7 +11284,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210093333",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "tacoma",
@@ -11380,7 +11316,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://events.seattleu.edu/event/higher-education-leadership-and-administration-information-session-2071",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "seattle",
@@ -11412,7 +11348,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/info-session-ai-tech-and-sustainability-in-dublin",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -11444,7 +11380,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-python-7234",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -11476,7 +11412,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/knight-campus-undergraduate-scholars-program-info-session-for-chc-students-8870",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -11508,7 +11444,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266510",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -11540,7 +11476,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-springboard-dive-at-ymca/2026-10-28/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -11572,7 +11508,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425854",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -11604,7 +11540,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698419",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -11636,7 +11572,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://maco.oregonstate.edu/students-0/student-resources/peer-advising",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -11668,7 +11604,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/naloxone-training-8/2026-10-28/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -11700,7 +11636,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://app.joinhandshake.com/career_fairs/c5e59f69-d3a4-4777-a275-87d3c8673391/student_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career fair",
       "corvallis",
@@ -11732,7 +11668,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17448572",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "research",
@@ -11764,7 +11700,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://business.uoregon.edu/hands-on-learning/professional-edge",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "internship",
@@ -11796,7 +11732,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/sports-product-management-information-session-818",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -11828,7 +11764,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/study-abroad-scholarships-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -11860,7 +11796,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -11892,7 +11828,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-clinically-speaking-np-webinar-series-2/2026-10-28/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -11924,7 +11860,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210342428",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -11956,7 +11892,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/write-to-flourish-write-with-flourish-an-on-campus-writing-retreat-14/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -11988,7 +11924,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/accessibility-office-hours-327",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -12020,7 +11956,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/applying-anti-racist-pedagogies-in-the-classroom__trashed/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -12052,7 +11988,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/beta-alpha-psi-weekly-meeting-4346",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -12084,7 +12020,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D204019624",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "internship",
@@ -12116,7 +12052,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/chemistry-department-seminar-sieun-chae-oregon-state-university",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -12148,7 +12084,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210849259",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "tacoma",
@@ -12180,7 +12116,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/community-cooking-classes-3-8/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -12212,7 +12148,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/deaf-and-hard-of-hearing-program-online-masters-info-sessions-2026/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -12244,7 +12180,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D207127936",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "tacoma",
@@ -12276,7 +12212,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210931293",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -12308,7 +12244,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210931304",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -12340,7 +12276,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://recsports.oregonstate.edu/fitness-wellness/fitness-wellness-education/empower-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "corvallis",
@@ -12372,7 +12308,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://app.joinhandshake.com/career_fairs/21ad6ca9-a92d-4873-96f0-2ee875f65e48/student_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "career fair",
@@ -12404,7 +12340,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://seagrant.oregonstate.edu/visitor-center/marine-education/career-day",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -12436,7 +12372,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/foundations-of-pedagogy-september-november-2026__trashed/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "arts & media",
@@ -12468,7 +12404,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211154556",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "engineering & science",
@@ -12500,7 +12436,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://hmsc.oregonstate.edu/pastseminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -12532,7 +12468,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D189395498",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "engineering & science",
       "online",
@@ -12564,7 +12500,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.joinhandshake.com/events/2020889/share_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "or",
@@ -12596,7 +12532,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ires-seminar-series/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -12628,7 +12564,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/indigenous-strategic-initiatives-fund-information-sessions-2/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -12660,7 +12596,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/ibec-weekly-meeting",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "business & entrepreneurship",
@@ -12692,7 +12628,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/introduction-to-r-5006",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -12724,7 +12660,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=400004",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -12756,7 +12692,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211400490",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -12788,7 +12724,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=396454",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -12820,7 +12756,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266563",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -12852,7 +12788,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266549",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -12884,7 +12820,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-play-squash-6/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -12916,7 +12852,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209430028",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -12948,7 +12884,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/https-libcal-library-ubc-ca-event-4075850/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -12980,7 +12916,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17698359",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -13012,7 +12948,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/naloxone-training-9/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "kelowna",
@@ -13044,7 +12980,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://netimpactuo.squarespace.com/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "conference",
@@ -13076,7 +13012,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/p2p-office-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -13108,7 +13044,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D188106059",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -13140,7 +13076,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/recruiting-session-with-cibc-commercial-banking/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "business & entrepreneurship",
@@ -13172,7 +13108,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -13204,7 +13140,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -13236,7 +13172,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/trauma-sensitive-classrooms__trashed/2026-10-29/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "medicine & health",
@@ -13268,7 +13204,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/undergraduate-student-researchers-info-session-2027-international-students/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -13300,7 +13236,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/webmapping-part-2-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -13332,7 +13268,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D204515725",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "conference",
       "medicine & health",
@@ -13364,7 +13300,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://mohr.uoregon.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -13396,7 +13332,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210331218",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -13428,7 +13364,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://homecoming.uoregon.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -13460,7 +13396,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D208744392",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -13492,7 +13428,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/go-global-qa-session-51/2026-10-30/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -13524,7 +13460,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210164579",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "career & research",
@@ -13556,7 +13492,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/inspireme-seminar-alireza-fath-phd-university-of-vermont",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -13588,7 +13524,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D211234084",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "career & research",
@@ -13620,7 +13556,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397151",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -13652,7 +13588,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-gymnastics-session-2/2026-10-30/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -13684,7 +13620,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209425855",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -13716,7 +13652,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210852807",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -13748,7 +13684,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D189089276",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "leadership & service",
       "research",
@@ -13780,7 +13716,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://business.uoregon.edu/hands-on-learning/professional-edge",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "leadership & service",
@@ -13812,7 +13748,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/school-of-public-policy-seminar-series-fall-2026",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "law & civic",
@@ -13844,7 +13780,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D208872805",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "business & entrepreneurship",
@@ -13876,7 +13812,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -13908,7 +13844,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -13940,7 +13876,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/uo-law-school-fair-2981",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "law & civic",
@@ -13972,7 +13908,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209506441",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -14004,7 +13940,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://geo.uoregon.edu/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -14036,7 +13972,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/write-to-flourish-write-with-flourish-an-online-writing-retreat-2/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -14068,7 +14004,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D209663009",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -14100,7 +14036,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210089852",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -14132,7 +14068,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -14164,7 +14100,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/grove-community-garden-workparty",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -14196,7 +14132,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397150",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "id",
@@ -14228,7 +14164,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/event/beav-eats-bnc-weekly-food-and-cooking-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -14260,7 +14196,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -14292,7 +14228,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D211501355",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bothell",
       "engineering & science",
@@ -14324,7 +14260,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/eoa.oregonstate.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -14356,7 +14292,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://k12cyber.uoregon.edu/conference/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "conference",
       "eugene",
@@ -14388,7 +14324,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://ib.oregonstate.edu/integrative-biology-news-events/seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -14420,7 +14356,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266289",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -14452,7 +14388,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266358",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -14484,7 +14420,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/docs.google.com/forms/d/1un5ARbtS6LTvUJ9Tfyc3iyxY1W7u7qocAH_buYdWITM/viewform?edit_requested=true",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "medicine & health",
@@ -14516,7 +14452,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D209767222",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "seattle",
@@ -14548,7 +14484,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D211241769",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "tacoma",
@@ -14580,7 +14516,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/tapped-minds-november",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "engineering & science",
@@ -14612,7 +14548,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregon.zoom.us/j/91975539590",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "eugene",
       "law & civic",
@@ -14644,7 +14580,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D208760050",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "tacoma",
@@ -14676,7 +14612,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D204281663",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -14708,7 +14644,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D209538941",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "tacoma",
@@ -14740,7 +14676,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://uoregonama.wixsite.com/2025",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -14772,7 +14708,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D210096726",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "internship",
       "medicine & health",
@@ -14804,7 +14740,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/boren-scholarship-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -14836,7 +14772,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.uwb.edu/calendar",
     "registrationUrl": "https://www.uwb.edu/calendar?trumbaEmbed=view%3Devent%26eventid%3D210866090",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -14868,7 +14804,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/career-exploration-series-beyond-teaching-careers-in-education/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "business & entrepreneurship",
@@ -14900,7 +14836,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D204019634",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "medicine & health",
       "tacoma",
@@ -14932,7 +14868,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/conservationconversations",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "internship",
@@ -14964,7 +14900,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D210915424",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "online",
@@ -14996,7 +14932,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://graduate.oregonstate.edu/graduate-writing-center",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -15028,7 +14964,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/global-opportunities-fair",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -15060,7 +14996,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://mohr.uoregon.edu",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "eugene",
@@ -15092,7 +15028,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/beav.es/library-workshops",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -15124,7 +15060,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSer2aAd67TTQ2MLL11w-wGsIHC5GNHjNvG-fnfXuAWaQ3unZg/viewform",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "boise",
@@ -15156,7 +15092,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266369",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -15188,7 +15124,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/learn-to-box-session-2/2026-11-03/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -15220,7 +15156,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.seattleu.edu/",
     "registrationUrl": "https://schedule.seattleu.edu/event/17266394",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "seattle",
@@ -15252,7 +15188,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://events.boisestate.edu/event/linkedin-workshop",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "id",
@@ -15284,7 +15220,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://maco.oregonstate.edu/students-0/student-resources/peer-advising",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "corvallis",
@@ -15316,7 +15252,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/musickinghistory-symposium-feat-prof-vera-keller",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -15348,7 +15284,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://events.oregonstate.edu/api/2/ceoas.oregonstate.edu/ocean-climate-seminars",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -15380,7 +15316,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.washington.edu/sea_campus/",
     "registrationUrl": "https://www.washington.edu/calendar/?trumbaEmbed=view%3Devent%26eventid%3D211339929",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "seattle",
@@ -15412,7 +15348,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/study-and-stay-level-3-strategies-for-success-in-canadian-immigration-26/2026-11-03/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -15444,7 +15380,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/tropical-ecology-in-ecuador-info-session-2843",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -15476,7 +15412,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/tuesday-weekly-writing-community-5/2026-11-03/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -15508,7 +15444,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/ubc-cpd-midwifery-documentation-workshop-online__trashed/2026-11-03/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "career & research",
@@ -15540,7 +15476,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.zoom.us/webinar/register/WN_E8sHkGNlS2ivSzbpbKcjTA",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "online",
@@ -15572,7 +15508,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://calendar.uoregon.edu/",
     "registrationUrl": "https://calendar.uoregon.edu/event/advertising-portfolio-office-hours",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "eugene",
@@ -15604,7 +15540,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/applying-to-graduate-school-5/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "application",
       "bc",
@@ -15636,7 +15572,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/cgrs-m-crafting-a-compelling-research-story/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -15668,7 +15604,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/career-pathways-in-engineering-and-geoscience-what-i-wish-i-knew-as-a-young-professional/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "bc",
       "engineering & science",
@@ -15700,7 +15636,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://app.joinhandshake.com/career_fairs/c2b5df0f-2739-4c17-a3d9-5fa491b860c2/student_preview",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -15732,7 +15668,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ok.ubc.ca/",
     "registrationUrl": "https://events.ok.ubc.ca/event/community-cooking-classes-3/2026-11-04/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -15764,7 +15700,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.ubc.ca/",
     "registrationUrl": "https://events.ubc.ca/event/data-bites-introduction-to-data-management-plans-dmps-6/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "arts & media",
       "bc",
@@ -15796,7 +15732,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://www.tacoma.uw.edu/calendar",
     "registrationUrl": "https://www.tacoma.uw.edu/home/events-calendar?trumbaEmbed=view%3Devent%26eventid%3D208973457",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "business & entrepreneurship",
       "tacoma",
@@ -15828,7 +15764,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.oregonstate.edu/",
     "registrationUrl": "https://oregonstate.libcal.com/calendar/AILiteracyCenter/VibeCoding1",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "corvallis",
       "engineering & science",
@@ -15860,7 +15796,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/recreation/sports/intramuralsports/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career & research",
@@ -15892,7 +15828,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.zoom.us/j/93073357463",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "id",
@@ -15924,7 +15860,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=397331",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "career & research",
       "id",
@@ -15956,7 +15892,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://boisestate.campusgroups.com/rsvp?id=400005",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "boise",
       "career & research",
@@ -15988,7 +15924,7 @@
     "whyItStandsOut": "A recently announced local opportunity from a monitored source.",
     "sourceUrl": "https://events.boisestate.edu/",
     "registrationUrl": "https://www.boisestate.edu/spph/mph/",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-19",
     "tags": [
       "id",
       "medicine & health",

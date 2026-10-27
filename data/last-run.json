@@ -1,14 +1,9 @@
 {
   "mode": "verification",
-  "ranAt": "2026-10-26T20:03:46.826579+00:00",
-  "checkedCount": 495,
-  "activeCount": 496,
-  "archivedCount": 1195,
-  "warningCount": 1,
-  "warnings": [
-    {
-      "id": "here-for-you-suicide-prevention-training-zoom-2026",
-      "error": "The read operation timed out"
-    }
-  ]
+  "ranAt": "2026-10-27T19:33:27.830085+00:00",
+  "checkedCount": 464,
+  "activeCount": 464,
+  "archivedCount": 1227,
+  "warningCount": 0,
+  "warnings": []
 }
